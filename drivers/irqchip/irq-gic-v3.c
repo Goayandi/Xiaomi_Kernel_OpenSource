@@ -130,7 +130,7 @@ static void gic_enable_redist(void)
 	writel_relaxed(val, rbase + GICR_WAKER);
 
 	while (readl_relaxed(rbase + GICR_WAKER) & GICR_WAKER_ChildrenAsleep) {
-		count--;
+		--count;
 		if (!count) {
 			pr_err_ratelimited("redist didn't wake up...\n");
 			return;
