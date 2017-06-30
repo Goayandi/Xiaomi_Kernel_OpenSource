@@ -550,6 +550,9 @@ static int gic_set_affinity(struct irq_data *d, const struct cpumask *mask_val,
 	if (!force && (cpumask_first_and(mask_val, cpu_online_mask) >= nr_cpu_ids))
 		return -EINVAL;
 
+	if (cpu >= nr_cpu_ids)
+		return -EINVAL;
+
 	if (gic_irq_in_rdist(d))
 		return -EINVAL;
 
