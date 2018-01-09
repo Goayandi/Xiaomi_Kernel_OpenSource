@@ -19,7 +19,6 @@
  */
 
 #include "sdcardfs.h"
-#include <linux/fsnotify.h>
 
 /*
  * The inode cache is used with alloc_inode for both our inode info and the
@@ -35,115 +34,13 @@ static struct kmem_cache *sdcardfs_inode_cachep;
  * new data and then drops the ref to the old data.
  */
 static struct kmem_cache *sdcardfs_inode_data_cachep;
- void data_release(struct kref *ref)
+
+void data_release(struct kref *ref)
 {
 	struct sdcardfs_inode_data *data =
 		container_of(ref, struct sdcardfs_inode_data, refcount);
- 	kmem_cache_free(sdcardfs_inode_data_cachep, data);
-}
 
-static LIST_HEAD(sdcardfs_list);
-static DEFINE_SPINLOCK(sdcardfs_list_lock);
-
-void sdcardfs_add_super(struct sdcardfs_sb_info *sbi, struct super_block *sb)
-{
-	sbi->s_sb = sb;
-	INIT_LIST_HEAD(&sbi->s_list);
-
-	spin_lock(&sdcardfs_list_lock);
-	list_add_tail(&sbi->s_list, &sdcardfs_list);
-	spin_unlock(&sdcardfs_list_lock);
-}
-
-static void sdcardfs_remove_super(struct sdcardfs_sb_info *sbi)
-{
-	spin_lock(&sdcardfs_list_lock);
-	list_del(&sbi->s_list);
-	spin_unlock(&sdcardfs_list_lock);
-}
-
-/* drop all shared dentries from other superblocks */
-void sdcardfs_drop_sb_icache(struct super_block *sb, unsigned long ino)
-{
-	struct inode *inode = ilookup(sb, ino);
-	struct dentry *dentry, *dir_dentry;
-
-	if (!inode)
-		return;
-
-	dentry = d_find_any_alias(inode);
-
-	if (!dentry) {
-		iput(inode);
-		return;
-	}
-
-	dir_dentry = lock_parent(dentry);
-
-	mutex_lock(&inode->i_mutex);
-	set_nlink(inode, sdcardfs_lower_inode(inode)->i_nlink);
-	d_drop(dentry);
-	dont_mount(dentry);
-	mutex_unlock(&inode->i_mutex);
-
-	/* We don't d_delete() NFS sillyrenamed files--they still exist. */
-	if (!(dentry->d_flags & DCACHE_NFSFS_RENAMED)) {
-		fsnotify_link_count(inode);
-		d_delete(dentry);
-	}
-
-	unlock_dir(dir_dentry);
-	dput(dentry);
-	iput(inode);
-}
-
-void sdcardfs_drop_shared_icache(struct super_block *sb, struct inode *lower_inode)
-{
-	struct list_head *p;
-	struct sdcardfs_sb_info *sbi;
-	struct super_block *lower_sb = lower_inode->i_sb;
-
-	spin_lock(&sdcardfs_list_lock);
-	p = sdcardfs_list.next;
-	while (p != &sdcardfs_list) {
-		sbi = list_entry(p, struct sdcardfs_sb_info, s_list);
-		if (sbi->s_sb == sb || sbi->lower_sb != lower_sb) {
-			p = p->next;
-			continue;
-		}
-		spin_unlock(&sdcardfs_list_lock);
-		sdcardfs_drop_sb_icache(sbi->s_sb, lower_inode->i_ino);
-		spin_lock(&sdcardfs_list_lock);
-		p = p->next;
-	}
-	spin_unlock(&sdcardfs_list_lock);
-}
-
-void sdcardfs_truncate_share(struct super_block *sb, struct inode *lower_inode, loff_t newsize)
-{
-	struct list_head *p;
-	struct sdcardfs_sb_info *sbi;
-	struct super_block *lower_sb = lower_inode->i_sb;
-	struct inode *inode;
-
-	spin_lock(&sdcardfs_list_lock);
-	p = sdcardfs_list.next;
-	while (p != &sdcardfs_list) {
-		sbi = list_entry(p, struct sdcardfs_sb_info, s_list);
-		if (sbi->s_sb == sb || sbi->lower_sb != lower_sb) {
-			p = p->next;
-			continue;
-		}
-		spin_unlock(&sdcardfs_list_lock);
-		inode = ilookup(sbi->s_sb, lower_inode->i_ino);
-		if (inode) {
-			truncate_setsize(inode, newsize);
-			iput(inode);
-		}
-		spin_lock(&sdcardfs_list_lock);
-		p = p->next;
-	}
-	spin_unlock(&sdcardfs_list_lock);
+	kmem_cache_free(sdcardfs_inode_data_cachep, data);
 }
 
 /* final actions when unmounting a file system */
@@ -156,7 +53,7 @@ static void sdcardfs_put_super(struct super_block *sb)
 	if (!spd)
 		return;
 
-	if(spd->obbpath_s) {
+	if (spd->obbpath_s) {
 		kfree(spd->obbpath_s);
 		path_put(&spd->obbpath);
 	}
@@ -166,7 +63,6 @@ static void sdcardfs_put_super(struct super_block *sb)
 	sdcardfs_set_lower_super(sb, NULL);
 	atomic_dec(&s->s_active);
 
-	sdcardfs_remove_super(spd);
 	kfree(spd);
 	sb->s_fs_info = NULL;
 }
@@ -175,19 +71,13 @@ static int sdcardfs_statfs(struct dentry *dentry, struct kstatfs *buf)
 {
 	int err;
 	struct path lower_path;
-#ifndef LOWER_FS_MIN_FREE_SIZE
 	u32 min_blocks;
-#endif
 	struct sdcardfs_sb_info *sbi = SDCARDFS_SB(dentry->d_sb);
-
-	if (sbi->flag && SDCARDFS_MOUNT_ACCESS_DISABLE) {
-		return -ENOENT;
-	}
 
 	sdcardfs_get_lower_path(dentry, &lower_path);
 	err = vfs_statfs(&lower_path, buf);
 	sdcardfs_put_lower_path(dentry, &lower_path);
-#ifndef LOWER_FS_MIN_FREE_SIZE
+
 	if (sbi->options.reserved_mb) {
 		/* Invalid statfs informations. */
 		if (buf->f_bsize == 0) {
@@ -206,7 +96,7 @@ static int sdcardfs_statfs(struct dentry *dentry, struct kstatfs *buf)
 		/* Make reserved blocks invisiable to media storage */
 		buf->f_bfree = buf->f_bavail;
 	}
-#endif
+
 	/* set return buf to our f/s to avoid confusing user-level utils */
 	buf->f_type = SDCARDFS_SUPER_MAGIC;
 
@@ -244,7 +134,8 @@ static int sdcardfs_remount_fs2(struct vfsmount *mnt, struct super_block *sb,
 						int *flags, char *options)
 {
 	int err = 0;
- 	/*
+
+	/*
 	 * The VFS will take care of "ro" and "rw" flags among others.  We
 	 * can safely accept a few flags (RDONLY, MANDLOCK), and honor
 	 * SILENT, but anything else left over is an error.
@@ -255,23 +146,29 @@ static int sdcardfs_remount_fs2(struct vfsmount *mnt, struct super_block *sb,
 	}
 	pr_info("Remount options were %s for vfsmnt %p.\n", options, mnt);
 	err = parse_options_remount(sb, options, *flags & ~MS_SILENT, mnt->data);
- 	return err;
+
+
+	return err;
 }
- static void *sdcardfs_clone_mnt_data(void *data)
+
+static void *sdcardfs_clone_mnt_data(void *data)
 {
 	struct sdcardfs_vfsmount_options *opt = kmalloc(sizeof(struct sdcardfs_vfsmount_options), GFP_KERNEL);
 	struct sdcardfs_vfsmount_options *old = data;
- 	if (!opt)
+
+	if (!opt)
 		return NULL;
 	opt->gid = old->gid;
 	opt->mask = old->mask;
 	return opt;
 }
- static void sdcardfs_copy_mnt_data(void *data, void *newdata)
+
+static void sdcardfs_copy_mnt_data(void *data, void *newdata)
 {
 	struct sdcardfs_vfsmount_options *old = data;
 	struct sdcardfs_vfsmount_options *new = newdata;
- 	old->gid = new->gid;
+
+	old->gid = new->gid;
 	old->mask = new->mask;
 }
 
@@ -315,8 +212,12 @@ static struct inode *sdcardfs_alloc_inode(struct super_block *sb)
 		kmem_cache_free(sdcardfs_inode_cachep, i);
 		return NULL;
 	}
- 	i->data = d;
+
+	i->data = d;
 	kref_init(&d->refcount);
+	i->top_data = d;
+	spin_lock_init(&i->top_lock);
+	kref_get(&d->refcount);
 
 	i->vfs_inode.i_version = 1;
 	return &i->vfs_inode;
@@ -326,7 +227,7 @@ static void i_callback(struct rcu_head *head)
 {
 	struct inode *inode = container_of(head, struct inode, i_rcu);
 
- 	release_own_data(SDCARDFS_I(inode));
+	release_own_data(SDCARDFS_I(inode));
 	kmem_cache_free(sdcardfs_inode_cachep, SDCARDFS_I(inode));
 }
 
@@ -361,7 +262,8 @@ int sdcardfs_init_inode_cache(void)
 		kmem_cache_destroy(sdcardfs_inode_cachep);
 		return -ENOMEM;
 	}
- 	return 0;
+
+	return 0;
 }
 
 /* sdcardfs inode cache destructor */
@@ -403,6 +305,10 @@ static int sdcardfs_show_options(struct vfsmount *mnt, struct seq_file *m,
 		seq_printf(m, ",mask=%u", vfsopts->mask);
 	if (opts->fs_user_id)
 		seq_printf(m, ",userid=%u", opts->fs_user_id);
+	if (opts->gid_derivation)
+		seq_puts(m, ",derive_gid");
+	if (opts->default_normal)
+		seq_puts(m, ",default_normal");
 	if (opts->reserved_mb != 0)
 		seq_printf(m, ",reserved=%uMB", opts->reserved_mb);
 

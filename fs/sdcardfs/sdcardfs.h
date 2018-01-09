@@ -73,6 +73,7 @@
 
 #define AID_PACKAGE_INFO  1027
 
+
 /*
  * Permissions are handled by our permission function.
  * We don't want anyone who happens to look at our inode value to prematurely
@@ -88,11 +89,11 @@
 	} while (0)
 
 /* OVERRIDE_CRED() and REVERT_CRED()
- * 	OVERRID_CRED()
- * 		backup original task->cred
- * 		and modifies task->cred->fsuid/fsgid to specified value.
+ *	OVERRIDE_CRED()
+ *		backup original task->cred
+ *		and modifies task->cred->fsuid/fsgid to specified value.
  *	REVERT_CRED()
- * 		restore original task->cred->fsuid/fsgid.
+ *		restore original task->cred->fsuid/fsgid.
  * These two macro should be used in pair, and OVERRIDE_CRED() should be
  * placed at the beginning of a function, right after variable declaration.
  */
@@ -115,7 +116,8 @@
 /* Android 5.0 support */
 
 /* Permission mode for a specific node. Controls how file permissions
- * are derived for children nodes. */
+ * are derived for children nodes.
+ */
 typedef enum {
 	/* Nothing special; this node should just inherit from its parent. */
 	PERM_INHERIT,
@@ -197,6 +199,7 @@ struct sdcardfs_inode_info {
 	struct inode *lower_inode;
 	/* state derived based on current position in hierarchy */
 	struct sdcardfs_inode_data *data;
+
 	/* top folder for ownership */
 	spinlock_t top_lock;
 	struct sdcardfs_inode_data *top_data;
@@ -235,7 +238,8 @@ struct sdcardfs_sb_info {
 	struct super_block *sb;
 	struct super_block *lower_sb;
 	/* derived perm policy : some of options have been added
-	 * to sdcardfs_mount_options (Android 4.4 support) */
+	 * to sdcardfs_mount_options (Android 4.4 support)
+	 */
 	struct sdcardfs_mount_options options;
 	spinlock_t lock;	/* protects obbpath */
 	char *obbpath_s;
@@ -360,7 +364,6 @@ static inline void sdcardfs_put_reset_##pname(const struct dentry *dent) \
 SDCARDFS_DENT_FUNC(lower_path)
 SDCARDFS_DENT_FUNC(orig_path)
 
-
 static inline bool sbinfo_has_sdcard_magic(struct sdcardfs_sb_info *sbinfo)
 {
 	return sbinfo && sbinfo->sb
@@ -434,11 +437,12 @@ static inline int get_gid(struct vfsmount *mnt,
 		 * out the sdcard_rw GID only to trusted apps, we're okay relaxing
 		 * the user boundary enforcement for the default view. The UIDs
 		 * assigned to app directories are still multiuser aware.
-        */
+		 */
 		return AID_SDCARD_RW;
 	else
 		return multiuser_get_uid(data->userid, vfsopts->gid);
 }
+
 static inline int get_mode(struct vfsmount *mnt,
 		struct sdcardfs_inode_info *info,
 		struct sdcardfs_inode_data *data)
@@ -448,10 +452,11 @@ static inline int get_mode(struct vfsmount *mnt,
 	struct sdcardfs_vfsmount_options *opts = mnt->data;
 	int visible_mode = 0775 & ~opts->mask;
 
+
 	if (data->perm == PERM_PRE_ROOT) {
 		/* Top of multi-user view should always be visible to ensure
 		* secondary users can traverse inside.
-        */
+		*/
 		visible_mode = 0711;
 	} else if (data->under_android) {
 		/* Block "other" access to Android directories, since only apps
@@ -538,6 +543,7 @@ extern int setup_obb_dentry(struct dentry *dentry, struct path *lower_path);
 static inline struct dentry *lock_parent(struct dentry *dentry)
 {
 	struct dentry *dir = dget_parent(dentry);
+
 	mutex_lock_nested(&dir->d_inode->i_mutex, I_MUTEX_PARENT);
 	return dir;
 }
@@ -668,20 +674,5 @@ static inline bool qstr_case_eq(const struct qstr *q1, const struct qstr *q2)
 
 /* */
 #define QSTR_LITERAL(string) QSTR_INIT(string, sizeof(string)-1)
-
-extern int sdcardfs_init_workqueue(void);
-extern void sdcardfs_destroy_workqueue(void);
-extern int sdcardfs_work_dispatch_create(struct inode *dir, struct dentry *dentry,
-	umode_t mode, bool want_excl);
-extern int sdcardfs_work_dispatch_unlink(struct inode *dir, struct dentry *dentry);
-extern int sdcardfs_work_dispatch_permissions(struct dentry *entry);
-extern int sdcardfs_work_dispatch_mkdir(struct inode *dir, struct dentry *dentry,
-	umode_t mode);
-
-#define SDCARDFS_WQOP_DONE           0
-#define SDCARDFS_WQOP_RECURSIVE_PERM 1
-#define SDCARDFS_WQOP_CREATE         2
-#define SDCARDFS_WQOP_UNLINK         3
-#define SDCARDFS_WQOP_MKDIR          4
 
 #endif	/* not _SDCARDFS_H_ */
