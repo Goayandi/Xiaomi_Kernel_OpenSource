@@ -44,7 +44,7 @@ config CONFIG_TOUCHSCREEN_FT5X46
 source "drivers/input/touchscreen/mediatek/ft5x46/Kconfig"
 
 config TOUCHSCREEN_MTK_GT1151
-	bool "GT1151 for Mediatek package"
+	tristate "GT1151 for Mediatek package"
 	default n
 	help
 	  Say Y here if you have GT1151 touch panel.
