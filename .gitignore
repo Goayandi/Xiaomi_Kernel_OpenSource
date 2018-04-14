@@ -1,32 +1,104 @@
-# Prerequisites
-*.d
-
-# Object files
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# NOTE! Please use 'git ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+#
+# Normal rules
+#
+.*
 *.o
+*.o.*
+*.a
+*.s
 *.ko
-*.obj
+*.so
+*.so.dbg
+*.mod.c
+*.lst
+*.symtypes
+*.order
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
+*.bin
+*.gz
+*.bz2
+*.lzma
+*.xz
+*.lz4
+*.lzo
+*.gcno
+modules.builtin
 Module.symvers
-Mkfile.old
-dkms.conf
+*.dwo
+
+#
+# Toolchain
+#
+#
+/toolchain
+
+# Top-level generic files
+#
+/tags
+/TAGS
+/linux
+/vmlinux
+/vmlinuz
+/System.map
+/Module.markers
+out/
+#
+# Debian directory (make deb-pkg)
+#
+/debian/
+
+#
+# git files that we don't want to ignore even it they are dot-files
+#
+!.gitignore
+!.mailmap
+
+#
+# Generated include files
+#
+include/config
+include/generated
+arch/*/include/generated
+
+# stgit generated dirs
+patches-*
+
+# quilt's files
+patches
+series
+
+# cscope files
+cscope.*
+ncscope.*
+
+# gnu global files
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+
+*.orig
+*~
+\#*#
+
+#
+# Leavings from module signing
+#
+extra_certificates
+signing_key.priv
+signing_key.x509
+x509.genkey
+
+# Kconfig presets
+all.config
+
+# Out directory
+/out
