@@ -1,0 +1,8 @@
+drm_pci.c:41:19:drm_pci_alloc	80	static
+drm_pci.c:85:6:__drm_legacy_pci_free	64	static
+drm_pci.c:107:6:drm_pci_free	32	static
+drm_pci.c:407:5:drm_pci_init	0	static
+drm_pci.c:412:6:drm_pci_agp_destroy	0	static
+drm_pci.c:414:5:drm_irq_by_busid	0	static
+drm_pci.c:420:5:drm_pci_set_unique	0	static
+drm_pci.c:438:6:drm_pci_exit	32	static

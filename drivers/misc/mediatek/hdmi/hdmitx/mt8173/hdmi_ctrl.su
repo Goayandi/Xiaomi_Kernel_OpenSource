@@ -1,0 +1,5 @@
+hdmi_ctrl.c:37:6:vSetClk	0	static
+hdmi_ctrl.c:44:15:fgHDMIDDCByteWrite	0	static
+hdmi_ctrl.c:52:15:fgHDMIDDCDataWrite	0	static
+hdmi_ctrl.c:60:15:fgHDMIDDCByteRead	0	static
+hdmi_ctrl.c:68:15:fgHDMIDDCDataRead	0	static

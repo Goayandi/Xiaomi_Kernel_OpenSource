@@ -1,0 +1,4 @@
+clk-apmixed.c:37:12:mtk_ref2usb_tx_is_prepared	0	static
+clk-apmixed.c:64:13:mtk_ref2usb_tx_unprepare	0	static
+clk-apmixed.c:44:12:mtk_ref2usb_tx_prepare	32	static
+clk-apmixed.c:80:21:mtk_clk_register_ref2usb_tx	128	static

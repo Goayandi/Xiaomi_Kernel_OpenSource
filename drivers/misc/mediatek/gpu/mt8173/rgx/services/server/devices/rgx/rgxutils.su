@@ -1,0 +1,3 @@
+rgxutils.c:57:14:RGXSetAPMStateOff	32	static
+rgxutils.c:85:14:RGXSetDeviceFlags	0	static
+rgxutils.c:129:14:RGXRunScript	128	static

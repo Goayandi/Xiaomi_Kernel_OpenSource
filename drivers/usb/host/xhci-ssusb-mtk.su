@@ -1,0 +1,6 @@
+xhci-ssusb-mtk.c:84:12:get_bw_cost	0	static
+xhci-ssusb-mtk.c:602:5:xhci_mtk_drop_ep_quirk	48	static
+xhci-ssusb-mtk.c:629:5:xhci_mtk_add_ep_quirk	208	static
+xhci-ssusb-mtk.c:685:5:xhci_mtk_init_quirk	32	static
+xhci-ssusb-mtk.c:696:6:xhci_mtk_exit_quirk	16	static
+xhci-ssusb-mtk.c:706:5:xhci_mtk_td_remainder_quirk	0	static

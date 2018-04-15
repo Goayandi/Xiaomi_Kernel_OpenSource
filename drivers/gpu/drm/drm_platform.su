@@ -1,0 +1,2 @@
+drm_platform.c:71:5:drm_platform_set_busid	32	static
+drm_platform.c:100:5:drm_platform_init	64	static

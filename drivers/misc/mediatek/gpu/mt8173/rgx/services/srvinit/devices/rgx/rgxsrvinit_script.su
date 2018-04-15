@@ -1,0 +1,14 @@
+rgxsrvinit_script.c:84:26:NextScriptCommand	16	static
+rgxsrvinit_script.c:97:10:ScriptWriteRGXReg	32	static
+rgxsrvinit_script.c:116:10:ScriptPoll64RGXReg	48	static
+rgxsrvinit_script.c:136:10:ScriptPollRGXReg	48	static
+rgxsrvinit_script.c:243:17:ScriptPrepareReadMetaRegThroughSP	32	static
+rgxsrvinit_script.c:156:10:ScriptDBGReadRGXReg	48	static
+rgxsrvinit_script.c:182:10:ScriptDBGCalc	64	static
+rgxsrvinit_script.c:211:10:ScriptWriteRGXRegPDUMPOnly	32	static
+rgxsrvinit_script.c:275:10:ScriptDBGReadMetaRegThroughSP	48	static
+rgxsrvinit_script.c:339:10:ScriptMetaRegCondPollRGXReg	64	static
+rgxsrvinit_script.c:366:10:ScriptWriteMetaRegThroughSP	48	static
+rgxsrvinit_script.c:459:10:ScriptPollMetaRegThroughSP	64	static
+rgxsrvinit_script.c:480:10:ScriptDBGReadMetaCoreReg	48	static
+rgxsrvinit_script.c:535:10:ScriptHalt	16	static

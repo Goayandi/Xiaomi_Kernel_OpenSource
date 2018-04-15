@@ -1,0 +1,8 @@
+mt8173_evb.c:234:12:mt8173_evb_channel_cap_set	0	static
+mt8173_evb.c:366:1:mt8173_evb_machine_driver_init	16	static
+mt8173_evb.c:333:12:mt8173_evb_dev_remove	32	static
+mt8173_evb.c:300:12:mt8173_evb_dev_probe	48	static
+mt8173_evb.c:240:12:mt8173_evb_channel_cap_get	32	static
+mt8173_evb.c:45:12:mt8173_codec_init	48	static
+mt8173_evb.c:366:1:mt8173_evb_machine_driver_exit	16	static
+mt8173_evb.c:266:12:mt8173_evb_set_bias_level	16	static

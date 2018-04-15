@@ -1,0 +1,16 @@
+server_srvcore_bridge.c:613:1:PVRSRVBridgeEventObjectWaitTimeout	64	static
+server_srvcore_bridge.c:412:1:PVRSRVBridgeEventObjectClose	32	static
+server_srvcore_bridge.c:219:1:PVRSRVBridgeReleaseGlobalEventObject	32	static
+server_srvcore_bridge.c:586:1:PVRSRVBridgeGetDeviceStatus	48	static
+server_srvcore_bridge.c:532:1:PVRSRVBridgeAlignmentCheck	48	static
+server_srvcore_bridge.c:504:1:PVRSRVBridgeHWOpTimeout	32	static
+server_srvcore_bridge.c:477:1:PVRSRVBridgeGetDevClockSpeed	48	static
+server_srvcore_bridge.c:451:1:PVRSRVBridgeDumpDebugInfo	48	static
+server_srvcore_bridge.c:351:1:PVRSRVBridgeEventObjectWait	64	static
+server_srvcore_bridge.c:258:1:PVRSRVBridgeEventObjectOpen	64	static
+server_srvcore_bridge.c:160:1:PVRSRVBridgeAcquireGlobalEventObject	64	static
+server_srvcore_bridge.c:133:1:PVRSRVBridgeInitSrvDisconnect	48	static
+server_srvcore_bridge.c:105:1:PVRSRVBridgeDisconnect	32	static
+server_srvcore_bridge.c:73:1:PVRSRVBridgeConnect	64	static
+server_srvcore_bridge.c:688:14:InitSRVCOREBridge	32	static
+server_srvcore_bridge.c:740:14:DeinitSRVCOREBridge	0	static

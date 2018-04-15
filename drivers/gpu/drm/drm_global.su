@@ -1,0 +1,4 @@
+drm_global.c:44:6:drm_global_init	48	static
+drm_global.c:56:6:drm_global_release	16	static
+drm_global.c:66:5:drm_global_item_ref	64	static
+drm_global.c:96:6:drm_global_item_unref	48	static

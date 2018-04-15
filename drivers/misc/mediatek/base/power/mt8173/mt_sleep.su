@@ -1,0 +1,11 @@
+mt_sleep.c:157:12:slp_suspend_ops_valid	0	static
+mt_sleep.c:335:13:slp_suspend_ops_end	32	static
+mt_sleep.c:327:13:slp_suspend_ops_finish	32	static
+mt_sleep.c:162:12:slp_suspend_ops_begin	32	static
+mt_sleep.c:422:19:slp_module_init	16	static
+mt_sleep.c:175:12:slp_suspend_ops_prepare	32	static
+mt_sleep.c:261:12:slp_suspend_ops_enter	32	static
+mt_sleep.c:361:5:slp_set_wakesrc	64	static
+mt_sleep.c:395:15:slp_get_wake_reason	0	static
+mt_sleep.c:400:6:slp_will_infra_pdn	0	static
+mt_sleep.c:409:6:slp_pasr_en	0	static

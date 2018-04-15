@@ -1,0 +1,15 @@
+hid-picolcd_core.c:394:12:picolcd_resume	0	static
+hid-picolcd_core.c:679:1:picolcd_driver_init	16	static
+hid-picolcd_core.c:323:16:picolcd_operation_mode_delay_store	64	static
+hid-picolcd_core.c:315:16:picolcd_operation_mode_delay_show	16	static
+hid-picolcd_core.c:622:13:picolcd_remove	80	static
+hid-picolcd_core.c:679:1:picolcd_driver_exit	16	static
+hid-picolcd_core.c:384:12:picolcd_suspend	16	static
+hid-picolcd_core.c:343:12:picolcd_raw_event	112	static
+hid-picolcd_core.c:262:16:picolcd_operation_mode_show	0	static
+hid-picolcd_core.c:62:20:picolcd_report	16	static
+hid-picolcd_core.c:273:16:picolcd_operation_mode_store	64	static
+hid-picolcd_core.c:538:12:picolcd_probe	112	static
+hid-picolcd_core.c:77:25:picolcd_send_and_wait	112	static
+hid-picolcd_core.c:225:5:picolcd_reset	64	static
+hid-picolcd_core.c:403:12:picolcd_reset_resume	16	static

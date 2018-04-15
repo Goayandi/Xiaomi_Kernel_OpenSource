@@ -1,0 +1,3 @@
+hid-lgff.c:111:13:hid_lgff_set_autocenter	16	static
+hid-lgff.c:69:12:hid_lgff_play	32	static
+hid-lgff.c:128:5:lgff_init	48	static

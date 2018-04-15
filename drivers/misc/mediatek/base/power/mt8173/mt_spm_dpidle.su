@@ -1,0 +1,15 @@
+mt_spm_dpidle.c:248:27:request_uart_to_sleep	0	static
+mt_spm_dpidle.c:253:27:request_uart_to_wakeup	0	static
+mt_spm_dpidle.c:258:28:mt_cirq_clone_gic	0	static
+mt_spm_dpidle.c:262:28:mt_cirq_enable	0	static
+mt_spm_dpidle.c:266:28:mt_cirq_flush	0	static
+mt_spm_dpidle.c:270:28:mt_cirq_disable	0	static
+mt_spm_dpidle.c:274:28:spm_get_sleep_wakesrc	0	static
+mt_spm_dpidle.c:285:28:mt_cpu_dormant	0	static
+mt_spm_dpidle.c:290:13:spm_trigger_wfi_for_dpidle.isra.2	16	static
+mt_spm_dpidle.c:306:5:spm_set_dpidle_wakesrc	48	static
+mt_spm_dpidle.c:330:29:spm_dpidle_before_wfi	0	static
+mt_spm_dpidle.c:334:29:spm_dpidle_after_wfi	0	static
+mt_spm_dpidle.c:338:15:spm_go_to_dpidle	112	static
+mt_spm_dpidle.c:455:15:spm_go_to_sleep_dpidle	112	static
+mt_spm_dpidle.c:549:6:spm_dpidle_init	0	static

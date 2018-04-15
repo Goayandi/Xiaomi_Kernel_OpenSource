@@ -1,0 +1,2 @@
+mt_afe_connection.c:362:5:set_hdmi_interconnection	48	static
+mt_afe_connection.c:411:5:mt_afe_set_connection	64	static

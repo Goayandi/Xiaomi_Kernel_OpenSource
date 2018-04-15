@@ -1,0 +1,7 @@
+acecad.c:278:1:usb_acecad_driver_init	16	static
+acecad.c:251:13:usb_acecad_disconnect	32	static
+acecad.c:117:12:usb_acecad_open	16	static
+acecad.c:61:13:usb_acecad_irq	80	static
+acecad.c:128:13:usb_acecad_close	16	static
+acecad.c:135:12:usb_acecad_probe	96	static
+acecad.c:278:1:usb_acecad_driver_exit	16	static

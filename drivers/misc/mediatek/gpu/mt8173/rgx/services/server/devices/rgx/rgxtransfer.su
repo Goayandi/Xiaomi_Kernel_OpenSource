@@ -1,0 +1,7 @@
+rgxtransfer.c:239:21:_Destroy3DTransferContext	32	static
+rgxtransfer.c:275:14:PVRSRVRGXCreateTransferContextKM	176	static
+rgxtransfer.c:400:14:PVRSRVRGXDestroyTransferContextKM	48	static
+rgxtransfer.c:469:14:PVRSRVRGXSubmitTransferKM	560	static
+rgxtransfer.c:1053:14:PVRSRVRGXSetTransferContextPriorityKM	64	static
+rgxtransfer.c:1111:6:CheckForStalledTransferCtxt	64	static
+rgxtransfer.c:1142:10:CheckForStalledClientTransferCtxt	64	static

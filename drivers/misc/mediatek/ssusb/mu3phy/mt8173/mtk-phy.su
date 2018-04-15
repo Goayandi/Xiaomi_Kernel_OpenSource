@@ -1,0 +1,4 @@
+mtk-phy.c:32:11:u3phy_init	32	static
+mtk-phy.c:84:6:u3phy_exit	16	static
+mtk-phy.c:130:6:u3phy_writel	0	static
+mtk-phy.c:140:5:u3phy_readl	0	static

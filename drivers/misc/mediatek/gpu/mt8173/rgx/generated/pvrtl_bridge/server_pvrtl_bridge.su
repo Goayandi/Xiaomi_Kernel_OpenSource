@@ -1,0 +1,7 @@
+server_pvrtl_bridge.c:372:1:PVRSRVBridgeTLReleaseData	64	static
+server_pvrtl_bridge.c:192:1:PVRSRVBridgeTLCloseStream	32	static
+server_pvrtl_bridge.c:309:1:PVRSRVBridgeTLAcquireData	64	static
+server_pvrtl_bridge.c:231:1:PVRSRVBridgeTLDiscoverStreams	48	static
+server_pvrtl_bridge.c:73:1:PVRSRVBridgeTLOpenStream	64	static
+server_pvrtl_bridge.c:448:14:InitPVRTLBridge	32	static
+server_pvrtl_bridge.c:473:14:DeinitPVRTLBridge	0	static

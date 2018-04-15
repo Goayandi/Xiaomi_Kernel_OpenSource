@@ -1,0 +1,12 @@
+ft5x46_ts_i2c.c:240:19:ft5x46_i2c_init	16	static
+ft5x46_ts_i2c.c:174:12:ft5x46_i2c_remove	32	static
+ft5x46_ts_i2c.c:125:12:ft5x46_i2c_write	64	static
+ft5x46_ts_i2c.c:109:12:ft5x46_i2c_read	64	static
+ft5x46_ts_i2c.c:30:12:ft5x46_i2c_send	16	static
+ft5x46_ts_i2c.c:22:12:ft5x46_i2c_recv	16	static
+ft5x46_ts_i2c.c:150:12:ft5x46_i2c_probe	32	static
+ft5x46_ts_i2c.c:246:20:ft5x46_i2c_exit	16	static
+ft5x46_ts_i2c.c:208:12:ft5x46_i2c_resume	16	static
+ft5x46_ts_i2c.c:198:12:ft5x46_i2c_suspend	16	static
+ft5x46_ts_i2c.c:45:5:fts_i2c_read	64	static
+ft5x46_ts_i2c.c:88:5:fts_i2c_write	48	static

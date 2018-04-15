@@ -1,0 +1,4 @@
+tfa9890_init.c:58:27:tfa9890_dsp_system_stable	80	static
+tfa9890_init.c:23:27:tfa9890_specific	48	static
+tfa9890_init.c:155:27:tfa9890_dsp_reset	48	static
+tfa9890_init.c:174:6:tfa9890_ops	0	static

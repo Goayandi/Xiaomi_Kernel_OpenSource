@@ -1,0 +1,16 @@
+mt_afe_pcm_capture2.c:286:12:ul2_i2s2_clock_get	0	static
+mt_afe_pcm_capture2.c:295:12:ul2_i2s2_clock_set	0	static
+mt_afe_pcm_capture2.c:396:1:mt_pcm_capture2_driver_init	16	static
+mt_afe_pcm_capture2.c:372:12:mt_pcm_capture2_dev_remove	16	static
+mt_afe_pcm_capture2.c:267:26:mt_pcm_capture2_pointer	16	static
+mt_afe_pcm_capture2.c:211:12:mt_pcm_capture2_prepare	48	static
+mt_afe_pcm_capture2.c:205:12:mt_pcm_capture2_hw_free	16	static
+mt_afe_pcm_capture2.c:184:12:mt_pcm_capture2_hw_params	32	static
+mt_afe_pcm_capture2.c:160:12:mt_pcm_capture2_close	32	static
+mt_afe_pcm_capture2.c:127:12:mt_pcm_capture2_open	48	static
+mt_afe_pcm_capture2.c:332:13:mt_pcm_capture2_pcm_free	16	static
+mt_afe_pcm_capture2.c:321:12:mt_pcm_capture2_pcm_new	16	static
+mt_afe_pcm_capture2.c:314:12:mt_pcm_capture2_probe	16	static
+mt_afe_pcm_capture2.c:344:12:mt_pcm_capture2_dev_probe	32	static
+mt_afe_pcm_capture2.c:396:1:mt_pcm_capture2_driver_exit	16	static
+mt_afe_pcm_capture2.c:252:12:mt_pcm_capture2_trigger	64	static

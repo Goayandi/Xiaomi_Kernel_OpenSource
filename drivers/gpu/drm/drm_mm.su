@@ -1,0 +1,14 @@
+drm_mm.c:176:5:drm_mm_reserve_node	16	static
+drm_mm.c:229:5:drm_mm_insert_node_generic	128	static
+drm_mm.c:326:5:drm_mm_insert_node_in_range_generic	160	static
+drm_mm.c:356:6:drm_mm_remove_node	16	static
+drm_mm.c:505:6:drm_mm_replace_node	0	static
+drm_mm.c:563:6:drm_mm_init_scan	0	static
+drm_mm.c:596:6:drm_mm_init_scan_with_range	0	static
+drm_mm.c:626:6:drm_mm_scan_add_block	64	static
+drm_mm.c:689:6:drm_mm_scan_remove_block	16	static
+drm_mm.c:718:6:drm_mm_clean	0	static
+drm_mm.c:734:6:drm_mm_init	0	static
+drm_mm.c:762:6:drm_mm_takedown	16	static
+drm_mm.c:792:6:drm_mm_debug_table	80	static
+drm_mm.c:835:5:drm_mm_dump_table	80	static

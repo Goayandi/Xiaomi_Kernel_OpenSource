@@ -1,0 +1,7 @@
+pvr_drm.c:81:12:pvr_pm_resume	32	static
+pvr_drm.c:72:12:pvr_pm_suspend	32	static
+pvr_drm.c:192:13:pvr_compat_ioctl	16	static
+pvr_drm.c:137:12:pvr_drm_unload	32	static
+pvr_drm.c:165:13:pvr_drm_release	16	static
+pvr_drm.c:149:12:pvr_drm_open	16	static
+pvr_drm.c:96:12:pvr_drm_load	64	static

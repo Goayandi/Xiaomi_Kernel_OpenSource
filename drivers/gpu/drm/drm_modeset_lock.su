@@ -1,0 +1,17 @@
+drm_modeset_lock.c:232:1:drm_modeset_legacy_acquire_ctx	32	static
+drm_modeset_lock.c:271:6:drm_warn_on_modeset_not_all_locked	48	static
+drm_modeset_lock.c:292:6:drm_modeset_acquire_init	0	static
+drm_modeset_lock.c:305:6:drm_modeset_acquire_fini	0	static
+drm_modeset_lock.c:317:6:drm_modeset_drop_locks	32	static
+drm_modeset_lock.c:145:6:drm_modeset_unlock_all	32	static
+drm_modeset_lock.c:250:6:drm_modeset_unlock_crtc	32	static
+drm_modeset_lock.c:371:12:modeset_backoff	48	static
+drm_modeset_lock.c:394:6:drm_modeset_backoff	16	static
+drm_modeset_lock.c:406:5:drm_modeset_backoff_interruptible	16	static
+drm_modeset_lock.c:423:5:drm_modeset_lock	48	static
+drm_modeset_lock.c:176:6:drm_modeset_lock_crtc	64	static
+drm_modeset_lock.c:441:5:drm_modeset_lock_interruptible	48	static
+drm_modeset_lock.c:455:6:drm_modeset_unlock	16	static
+drm_modeset_lock.c:464:5:drm_modeset_lock_all_crtcs	48	static
+drm_modeset_lock.c:70:5:__drm_modeset_lock_all	64	static
+drm_modeset_lock.c:133:6:drm_modeset_lock_all	16	static

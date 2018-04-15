@@ -1,0 +1,7 @@
+pinctrl-mt8173.c:413:19:mtk_pinctrl_init	16	static
+pinctrl-mt8173.c:391:12:mt8173_pinctrl_probe	16	static
+pinctrl-mt8173.c:329:12:mt8173_spec_smt_get	16	static
+pinctrl-mt8173.c:323:12:mt8173_spec_ies_get	16	static
+pinctrl-mt8173.c:335:12:mt8173_spec_pull_get	16	static
+pinctrl-mt8173.c:72:12:mt8173_spec_pull_set	16	static
+pinctrl-mt8173.c:185:12:mt8173_ies_smt_set	16	static

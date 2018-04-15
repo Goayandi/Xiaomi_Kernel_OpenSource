@@ -1,0 +1,4 @@
+physmem.c:58:14:DevPhysMemAlloc	96	static
+physmem.c:201:6:DevPhysMemFree	16	static
+physmem.c:221:1:PhysmemNewRamBackedPMR	112	static
+physmem.c:330:1:PhysmemNewRamBackedLockedPMR	64	static

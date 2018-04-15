@@ -1,0 +1,10 @@
+ddp_irq.c:52:5:disp_register_irq_callback	48	static
+ddp_irq.c:76:5:disp_unregister_irq_callback	32	static
+ddp_irq.c:94:5:disp_register_module_irq_callback	32	static
+ddp_irq.c:126:5:disp_unregister_module_irq_callback	48	static
+ddp_irq.c:145:6:disp_invoke_irq_callbacks	64	static
+ddp_irq.c:228:13:disp_irq_handler	96	static
+ddp_irq.c:201:6:disp_dump_emi_status	80	static
+ddp_irq.c:429:12:disp_irq_log_kthread_func	160	static
+ddp_irq.c:477:6:disp_register_dev_irq	32	static
+ddp_irq.c:521:5:ddp_irq_init	64	static

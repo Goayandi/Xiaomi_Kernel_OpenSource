@@ -1,0 +1,10 @@
+s5k5e8otp.c:595:12:CAM_CAL_i2c_remove	0	static
+s5k5e8otp.c:645:20:CAM_CAL_i2C_exit	16	static
+s5k5e8otp.c:605:12:CAM_CAL_remove	16	static
+s5k5e8otp.c:448:12:CAM_CAL_Release	32	static
+s5k5e8otp.c:254:13:s5k5e8otp_Ioctl_Compat	80	static
+s5k5e8otp.c:572:12:CAM_CAL_i2c_probe	80	static
+s5k5e8otp.c:600:12:CAM_CAL_probe	16	static
+s5k5e8otp.c:424:12:CAM_CAL_Open	32	static
+s5k5e8otp.c:629:19:CAM_CAL_i2C_init	32	static
+s5k5e8otp.c:304:13:CAM_CAL_Ioctl	144	static

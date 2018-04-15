@@ -1,0 +1,8 @@
+net1080.c:540:1:net1080_driver_init	16	static
+net1080.c:436:1:net1080_tx_fixup	48	static
+net1080.c:496:12:net1080_bind	16	static
+net1080.c:540:1:net1080_driver_exit	16	static
+net1080.c:343:13:nc_ensure_sync.part.6	32	static
+net1080.c:361:12:net1080_rx_fixup	96	static
+net1080.c:326:12:net1080_check_connect	32	static
+net1080.c:280:12:net1080_reset	48	static

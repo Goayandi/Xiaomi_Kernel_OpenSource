@@ -1,0 +1,5 @@
+client_cacherangebased_direct_bridge.c:52:40:BridgeCacheOpQueue	16	static
+client_cacherangebased_direct_bridge.c:78:40:BridgeCacheOpExec	16	static
+client_cacherangebased_direct_bridge.c:100:40:BridgeCacheOpSetTimeline	16	static
+client_cacherangebased_direct_bridge.c:114:40:BridgeCacheOpLog	16	static
+client_cacherangebased_direct_bridge.c:140:40:BridgeCacheOpGetLineSize	16	static

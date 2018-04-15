@@ -1,0 +1,7 @@
+ddp_gamma.c:72:13:disp_gamma_trigger_refresh	16	static
+ddp_gamma.c:327:12:disp_gamma_set_listener	0	static
+ddp_gamma.c:83:12:disp_gamma_write_lut_reg	112	static
+ddp_gamma.c:200:12:disp_ccorr_write_coef_reg	80	static
+ddp_gamma.c:305:12:disp_gamma_io	64	static
+ddp_gamma.c:42:6:disp_gamma_init	48	static
+ddp_gamma.c:61:12:disp_gamma_config	32	static

@@ -1,0 +1,16 @@
+usb_wwan.c:104:12:get_serial_info	128	static
+usb_wwan.c:296:13:usb_wwan_outdat_callback	48	static
+usb_wwan.c:258:13:usb_wwan_indat_callback	48	static
+usb_wwan.c:39:6:usb_wwan_dtr_rts	16	static
+usb_wwan.c:58:5:usb_wwan_tiocmget	0	static
+usb_wwan.c:77:5:usb_wwan_tiocmset	16	static
+usb_wwan.c:157:5:usb_wwan_ioctl	144	static
+usb_wwan.c:181:5:usb_wwan_write	128	static
+usb_wwan.c:322:5:usb_wwan_write_room	0	static
+usb_wwan.c:343:5:usb_wwan_chars_in_buffer	0	static
+usb_wwan.c:365:5:usb_wwan_open	80	static
+usb_wwan.c:421:6:usb_wwan_close	64	static
+usb_wwan.c:477:5:usb_wwan_port_probe	112	static
+usb_wwan.c:539:5:usb_wwan_port_remove	48	static
+usb_wwan.c:582:5:usb_wwan_suspend	80	static
+usb_wwan.c:637:5:usb_wwan_resume	144	static

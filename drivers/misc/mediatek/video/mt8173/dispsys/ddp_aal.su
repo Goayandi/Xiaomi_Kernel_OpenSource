@@ -1,0 +1,15 @@
+ddp_aal.c:443:12:aal_set_listener	0	static
+ddp_aal.c:424:12:aal_clock_off	16	static
+ddp_aal.c:84:13:disp_aal_set_interrupt	32	static
+ddp_aal.c:449:5:aal_bypass	32	static
+ddp_aal.c:431:12:aal_init	16	static
+ddp_aal.c:437:12:aal_deinit	16	static
+ddp_aal.c:417:12:aal_clock_on	16	static
+ddp_aal.c:144:6:disp_aal_on_end_of_frame	48	static
+ddp_aal.c:192:6:disp_aal_notify_backlight_changed	64	static
+ddp_aal.c:284:5:disp_aal_write_init_regs	64	static
+ddp_aal.c:61:12:disp_aal_init.isra.6	32	static
+ddp_aal.c:389:12:aal_config	64	static
+ddp_aal.c:313:5:disp_aal_set_param	80	static
+ddp_aal.c:463:12:aal_io	144	static
+ddp_aal.c:606:6:aal_test	96	static

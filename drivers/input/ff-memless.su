@@ -1,0 +1,9 @@
+ff-memless.c:488:13:ml_ff_destroy	16	static
+ff-memless.c:164:12:apply_envelope	64	static
+ff-memless.c:124:13:ml_schedule_timer	96	static
+ff-memless.c:465:12:ml_ff_upload	64	static
+ff-memless.c:390:13:ml_play_effects	160	static
+ff-memless.c:419:13:ml_ff_set_gain	16	static
+ff-memless.c:435:12:ml_ff_playback	48	static
+ff-memless.c:403:13:ml_effect_timer	48	static
+ff-memless.c:501:5:input_ff_create_memless	48	static

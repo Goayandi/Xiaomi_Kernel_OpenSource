@@ -1,0 +1,11 @@
+lp855x_bl.c:200:12:lp855x_configure	48	static
+lp855x_bl.c:606:1:lp855x_driver_init	16	static
+lp855x_bl.c:492:12:lp855x_remove	16	static
+lp855x_bl.c:348:16:lp855x_get_bl_ctl_mode	16	static
+lp855x_bl.c:341:16:lp855x_get_chip_id	16	static
+lp855x_bl.c:430:12:lp855x_probe	112	static
+lp855x_bl.c:606:1:lp855x_driver_exit	16	static
+lp855x_bl.c:501:13:lp855x_shutdown	32	static
+lp855x_bl.c:163:12:lp8557_bl_off	32	static
+lp855x_bl.c:170:12:lp8557_bl_on	32	static
+lp855x_bl.c:540:5:lp855x_set_backlight_level	80	static

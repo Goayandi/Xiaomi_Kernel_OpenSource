@@ -1,0 +1,2 @@
+rgx_compat_bvnc.c:106:6:rgx_bvnc_packed	0	static
+rgx_compat_bvnc.c:154:6:rgx_bvnc_pack_hw	16	static

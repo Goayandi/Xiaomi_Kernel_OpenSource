@@ -1,0 +1,6 @@
+hid-saitek.c:97:12:saitek_raw_event	0	static
+hid-saitek.c:199:1:saitek_driver_init	16	static
+hid-saitek.c:154:12:saitek_event	32	static
+hid-saitek.c:40:12:saitek_probe	48	static
+hid-saitek.c:199:1:saitek_driver_exit	16	static
+hid-saitek.c:73:14:saitek_report_fixup	32	static

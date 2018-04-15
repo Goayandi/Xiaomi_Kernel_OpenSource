@@ -1,0 +1,4 @@
+rgxfwload.c:247:1:RGXLoadFirmware	32	static
+rgxfwload.c:270:1:RGXUnloadFirmware	16	static
+rgxfwload.c:278:1:RGXFirmwareSize	0	static
+rgxfwload.c:291:1:RGXFirmwareData	0	static

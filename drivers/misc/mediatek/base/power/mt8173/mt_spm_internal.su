@@ -1,0 +1,11 @@
+mt_spm_internal.c:22:13:aee_sram_printk	64	static
+mt_spm_internal.c:74:6:__spm_reset_and_init_pcm	16	static
+mt_spm_internal.c:93:6:__spm_kick_im_to_fetch	32	static
+mt_spm_internal.c:113:6:__spm_init_pcm_register	0	static
+mt_spm_internal.c:126:6:__spm_init_event_vector	0	static
+mt_spm_internal.c:141:6:__spm_set_power_control	0	static
+mt_spm_internal.c:171:6:__spm_set_wakeup_event	0	static
+mt_spm_internal.c:205:6:__spm_kick_pcm_to_run	0	static
+mt_spm_internal.c:232:6:__spm_get_wakeup_status	0	static
+mt_spm_internal.c:259:6:__spm_clean_after_wakeup	0	static
+mt_spm_internal.c:287:15:__spm_output_wake_reason	336	static

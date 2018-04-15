@@ -1,0 +1,9 @@
+wl_cfg_btcoex.c:311:13:wl_cfg80211_bt_timerfunc	32	static
+wl_cfg_btcoex.c:105:1:dev_wlc_bufvar_set.constprop	32	static
+wl_cfg_btcoex.c:85:1:dev_wlc_intvar_get_reg.constprop	304	static
+wl_cfg_btcoex.c:125:1:dev_wlc_intvar_set_reg.constprop	48	static
+wl_cfg_btcoex.c:284:13:wl_cfg80211_bt_setflag	128	static
+wl_cfg_btcoex.c:319:13:wl_cfg80211_bt_handler	32	static
+wl_cfg_btcoex.c:390:7:wl_cfg80211_btcoex_init	32	static
+wl_cfg_btcoex.c:415:6:wl_cfg80211_btcoex_deinit	32	static
+wl_cfg_btcoex.c:430:5:wl_cfg80211_set_btcoex_dhcp	144	static

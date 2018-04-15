@@ -1,0 +1,6 @@
+mt_afe_debug.c:415:16:mt_soc_spdif_debug_read	4160	dynamic,bounded
+mt_afe_debug.c:334:16:mt_soc_hdmi_debug_read	4160	dynamic,bounded
+mt_afe_debug.c:296:16:mt_soc_debug_write	144	static
+mt_afe_debug.c:27:16:mt_soc_debug_read	4176	dynamic,bounded
+mt_afe_debug.c:567:6:mt_afe_debug_init	48	static
+mt_afe_debug.c:581:6:mt_afe_debug_deinit	32	static

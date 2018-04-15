@@ -1,0 +1,7 @@
+mt_spm_sodi.c:419:29:soidle_before_wfi	0	static
+mt_spm_sodi.c:423:29:soidle_after_wfi	0	static
+mt_spm_sodi.c:448:6:spm_go_to_sodi	160	static
+mt_spm_sodi.c:539:6:spm_sodi_mempll_pwr_mode	0	static
+mt_spm_sodi.c:544:6:spm_enable_sodi	0	static
+mt_spm_sodi.c:549:6:spm_get_sodi_en	0	static
+mt_spm_sodi.c:566:6:spm_sodi_init	32	static

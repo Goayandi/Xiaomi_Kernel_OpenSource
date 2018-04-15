@@ -1,0 +1,16 @@
+i2c-dev.c:56:24:i2c_dev_get_by_minor	48	static
+i2c-dev.c:656:20:i2c_dev_exit	16	static
+i2c-dev.c:519:12:i2cdev_release	48	static
+i2c-dev.c:484:12:i2cdev_open	48	static
+i2c-dev.c:328:21:i2cdev_ioctl_smbus	112	static
+i2c-dev.c:161:16:i2cdev_write	48	static
+i2c-dev.c:136:16:i2cdev_read	48	static
+i2c-dev.c:620:19:i2c_dev_init	48	static
+i2c-dev.c:544:12:i2cdev_attach_adapter.part.3	48	static
+i2c-dev.c:544:12:i2cdev_attach_adapter	16	static
+i2c-dev.c:207:12:i2cdev_check_mux_children	32	static
+i2c-dev.c:238:21:i2cdev_ioctl_rdrw.isra.6	96	static
+i2c-dev.c:413:13:i2cdev_ioctl	48	static
+i2c-dev.c:595:12:i2cdev_notifier_call	48	static
+i2c-dev.c:575:12:i2cdev_detach_adapter	48	static
+i2c-dev.c:100:16:name_show	48	static

@@ -1,0 +1,4 @@
+lastpc_plt.c:37:12:lastpc_plt_start	0	static
+lastpc_plt.c:119:12:reboot_test	0	static
+lastpc_plt.c:42:12:lastpc_plt_dump	400	static
+lastpc_plt.c:130:19:lastpc_init	32	static

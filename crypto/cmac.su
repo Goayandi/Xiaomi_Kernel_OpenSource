@@ -1,0 +1,9 @@
+cmac.c:306:20:crypto_cmac_module_exit	16	static
+cmac.c:108:12:crypto_cmac_digest_init	16	static
+cmac.c:54:12:crypto_cmac_digest_setkey	48	static
+cmac.c:168:12:crypto_cmac_digest_final	80	static
+cmac.c:121:12:crypto_cmac_digest_update	96	static
+cmac.c:219:13:cmac_exit_tfm	16	static
+cmac.c:203:12:cmac_init_tfm	32	static
+cmac.c:301:19:crypto_cmac_module_init	16	static
+cmac.c:225:12:cmac_create	64	static

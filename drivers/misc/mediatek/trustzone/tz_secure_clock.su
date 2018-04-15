@@ -1,0 +1,4 @@
+tz_secure_clock.c:19:10:TEE_update_gb_time_intee	208	static
+tz_secure_clock.c:114:10:TEE_update_gb_time_infile	128	static
+tz_secure_clock.c:165:10:TEE_Icnt_time	160	static
+tz_secure_clock.c:323:5:update_securetime_thread_gb	48	static

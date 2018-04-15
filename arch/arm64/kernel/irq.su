@@ -1,0 +1,4 @@
+irq.c:34:5:arch_show_interrupts	48	static
+irq.c:45:13:set_handle_irq	0	static
+irq.c:53:13:init_IRQ	16	static
+irq.c:351:6:migrate_irqs	96	static

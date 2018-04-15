@@ -1,0 +1,4 @@
+hid-pl.c:232:1:pl_driver_init	16	static
+hid-pl.c:59:12:hid_plff_play	16	static
+hid-pl.c:190:12:pl_probe	112	static
+hid-pl.c:232:1:pl_driver_exit	16	static

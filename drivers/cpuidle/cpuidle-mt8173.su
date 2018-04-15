@@ -1,0 +1,11 @@
+cpuidle-mt8173.c:139:12:mt8173_cpuidle_init	64	static
+cpuidle-mt8173.c:23:27:dpidle_enter	0	static
+cpuidle-mt8173.c:48:12:mt_dpidle_enter	16	static
+cpuidle-mt8173.c:28:27:soidle_enter	0	static
+cpuidle-mt8173.c:54:12:mt_soidle_enter	16	static
+cpuidle-mt8173.c:33:27:mcidle_enter	0	static
+cpuidle-mt8173.c:60:12:mt_mcidle_enter	16	static
+cpuidle-mt8173.c:38:27:slidle_enter	0	static
+cpuidle-mt8173.c:66:12:mt_slidle_enter	16	static
+cpuidle-mt8173.c:43:27:rgidle_enter	0	static
+cpuidle-mt8173.c:72:12:mt_rgidle_enter	16	static

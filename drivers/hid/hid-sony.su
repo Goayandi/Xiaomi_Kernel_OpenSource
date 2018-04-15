@@ -1,0 +1,16 @@
+hid-sony.c:1479:13:sixaxis_state_worker	64	static
+hid-sony.c:1530:13:dualshock4_state_worker	96	static
+hid-sony.c:2074:20:sony_exit	16	static
+hid-sony.c:1292:28:sony_led_get_brightness	16	static
+hid-sony.c:879:14:sony_report_fixup	64	static
+hid-sony.c:1611:12:sony_battery_get_property	64	static
+hid-sony.c:1314:12:sony_led_blink_set	16	static
+hid-sony.c:2067:19:sony_init	16	static
+hid-sony.c:1051:12:sony_mapping	32	static
+hid-sony.c:1026:12:sony_raw_event	80	static
+hid-sony.c:1233:13:sony_set_leds	16	static
+hid-sony.c:1248:13:sony_led_set_brightness	16	static
+hid-sony.c:1361:13:sony_leds_remove	48	static
+hid-sony.c:1871:12:sony_probe	224	static
+hid-sony.c:1103:12:sony_input_configured	48	static
+hid-sony.c:2000:13:sony_remove	48	static

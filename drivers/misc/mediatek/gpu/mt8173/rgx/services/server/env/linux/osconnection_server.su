@@ -1,0 +1,3 @@
+osconnection_server.c:67:14:OSConnectionPrivateDataInit	64	static
+osconnection_server.c:125:14:OSConnectionPrivateDataDeInit	32	static
+osconnection_server.c:147:21:OSGetDevData	0	static

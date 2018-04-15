@@ -1,0 +1,17 @@
+hid-multitouch.c:1061:12:mt_resume	16	static
+hid-multitouch.c:1387:1:mt_driver_init	16	static
+hid-multitouch.c:832:13:mt_set_input_mode	16	static
+hid-multitouch.c:849:13:mt_set_maxcontacts	16	static
+hid-multitouch.c:1054:12:mt_reset_resume	32	static
+hid-multitouch.c:302:13:mt_feature_mapping	16	static
+hid-multitouch.c:261:16:mt_show_quirks	16	static
+hid-multitouch.c:344:13:set_abs	48	static
+hid-multitouch.c:754:12:mt_input_mapping	64	static
+hid-multitouch.c:271:16:mt_set_quirks	64	static
+hid-multitouch.c:1073:13:mt_remove	32	static
+hid-multitouch.c:972:12:mt_probe	80	static
+hid-multitouch.c:1387:1:mt_driver_exit	16	static
+hid-multitouch.c:806:12:mt_event	32	static
+hid-multitouch.c:905:12:mt_input_configured	48	static
+hid-multitouch.c:787:12:mt_input_mapped	32	static
+hid-multitouch.c:817:13:mt_report	112	static

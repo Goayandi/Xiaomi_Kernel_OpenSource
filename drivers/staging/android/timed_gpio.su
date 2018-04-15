@@ -1,0 +1,7 @@
+timed_gpio.c:164:1:timed_gpio_driver_init	16	static
+timed_gpio.c:141:12:timed_gpio_remove	48	static
+timed_gpio.c:37:29:gpio_timer_func	32	static
+timed_gpio.c:85:12:timed_gpio_probe	128	static
+timed_gpio.c:61:13:gpio_enable	80	static
+timed_gpio.c:164:1:timed_gpio_driver_exit	16	static
+timed_gpio.c:46:12:gpio_get_time	16	static

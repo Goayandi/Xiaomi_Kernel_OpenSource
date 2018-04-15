@@ -1,0 +1,9 @@
+drm_vma_manager.c:86:6:drm_vma_offset_manager_init	16	static
+drm_vma_manager.c:106:6:drm_vma_offset_manager_destroy	32	static
+drm_vma_manager.c:131:29:drm_vma_offset_lookup	48	static
+drm_vma_manager.c:158:29:drm_vma_offset_lookup_locked	0	static
+drm_vma_manager.c:240:5:drm_vma_offset_add	64	static
+drm_vma_manager.c:276:6:drm_vma_offset_remove	48	static
+drm_vma_manager.c:311:5:drm_vma_node_allow	48	static
+drm_vma_manager.c:373:6:drm_vma_node_revoke	48	static
+drm_vma_manager.c:413:6:drm_vma_node_is_allowed	48	static

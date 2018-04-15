@@ -1,0 +1,13 @@
+mt_afe_pcm_routing.c:75:12:ap_loopback_get	0	static
+mt_afe_pcm_routing.c:294:12:afe_sinegen_get	0	static
+mt_afe_pcm_routing.c:474:12:mt_pcm_routing_open	0	static
+mt_afe_pcm_routing.c:479:12:mt_pcm_routing_close	0	static
+mt_afe_pcm_routing.c:561:1:mt_pcm_routing_driver_init	16	static
+mt_afe_pcm_routing.c:537:12:mt_pcm_routing_dev_remove	16	static
+mt_afe_pcm_routing.c:492:12:mt_pcm_routing_resume	16	static
+mt_afe_pcm_routing.c:486:12:mt_pcm_routing_suspend	16	static
+mt_afe_pcm_routing.c:467:12:mt_pcm_routing_probe	16	static
+mt_afe_pcm_routing.c:303:12:afe_sinegen_set	32	static
+mt_afe_pcm_routing.c:84:12:ap_loopback_set	48	static
+mt_afe_pcm_routing.c:561:1:mt_pcm_routing_driver_exit	16	static
+mt_afe_pcm_routing.c:514:12:mt_pcm_routing_dev_probe	32	static

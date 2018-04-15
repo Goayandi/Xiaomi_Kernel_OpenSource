@@ -1,0 +1,12 @@
+mt_chip.c:81:21:__chip_hw_code	0	static
+mt_chip.c:86:21:__chip_hw_ver	0	static
+mt_chip.c:91:21:__chip_sw_ver	0	static
+mt_chip.c:96:21:__chip_hw_subcode	0	static
+mt_chip.c:172:14:mt_get_chip_info	16	static
+mt_chip.c:49:13:init_chip_id	80	static
+mt_chip.c:113:14:mt_get_chip_hw_code	32	static
+mt_chip.c:121:14:mt_get_chip_hw_ver	32	static
+mt_chip.c:129:14:mt_get_chip_hw_subcode	32	static
+mt_chip.c:137:14:mt_get_chip_sw_ver	16	static
+mt_chip.c:182:12:chip_mod_init	80	static
+mt_chip.c:101:14:mt_get_chip_id	32	static

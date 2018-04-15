@@ -1,0 +1,7 @@
+server_regconfig_bridge.c:182:1:PVRSRVBridgeRGXDisableRegConfig	32	static
+server_regconfig_bridge.c:155:1:PVRSRVBridgeRGXEnableRegConfig	32	static
+server_regconfig_bridge.c:128:1:PVRSRVBridgeRGXClearRegConfig	32	static
+server_regconfig_bridge.c:100:1:PVRSRVBridgeRGXAddRegconfig	48	static
+server_regconfig_bridge.c:74:1:PVRSRVBridgeRGXSetRegConfigType	48	static
+server_regconfig_bridge.c:224:14:InitREGCONFIGBridge	32	static
+server_regconfig_bridge.c:249:14:DeinitREGCONFIGBridge	0	static

@@ -1,0 +1,7 @@
+server_breakpoint_bridge.c:322:1:PVRSRVBridgeRGXOverallocateBPRegisters	48	static
+server_breakpoint_bridge.c:261:1:PVRSRVBridgeRGXDisableBreakpoint	64	static
+server_breakpoint_bridge.c:200:1:PVRSRVBridgeRGXEnableBreakpoint	64	static
+server_breakpoint_bridge.c:139:1:PVRSRVBridgeRGXClearBreakpoint	64	static
+server_breakpoint_bridge.c:74:1:PVRSRVBridgeRGXSetBreakpoint	64	static
+server_breakpoint_bridge.c:364:14:InitBREAKPOINTBridge	32	static
+server_breakpoint_bridge.c:389:14:DeinitBREAKPOINTBridge	0	static

@@ -1,0 +1,17 @@
+mt_spm_sleep.c:469:34:spm_map_wakeup_event	64	static
+mt_spm_sleep.c:422:5:spm_set_sleep_wakesrc	48	static
+mt_spm_sleep.c:449:5:spm_get_sleep_wakesrc	0	static
+mt_spm_sleep.c:454:6:spm_set_wakeup_event_map	0	static
+mt_spm_sleep.c:459:6:spm_register_wakeup_event	16	static
+mt_spm_sleep.c:493:16:spm_read_wakeup_event_and_irq	32	static
+mt_spm_sleep.c:506:6:spm_report_wakeup_event	64	static
+mt_spm_sleep.c:537:6:spm_clear_wakeup_event	0	static
+mt_spm_sleep.c:543:16:irq_to_wakeup_ev	0	static
+mt_spm_sleep.c:559:23:spm_get_wakeup_event	0	static
+mt_spm_sleep.c:583:15:spm_go_to_sleep	144	static
+mt_spm_sleep.c:699:6:spm_set_wakeup_src_check	0	static
+mt_spm_sleep.c:708:6:spm_check_wakeup_src	16	static
+mt_spm_sleep.c:722:6:spm_poweron_config_set	32	static
+mt_spm_sleep.c:732:6:spm_md32_sram_con	32	static
+mt_spm_sleep.c:742:6:spm_output_sleep_option	16	static
+mt_spm_sleep.c:748:6:spm_suspend_init	0	static

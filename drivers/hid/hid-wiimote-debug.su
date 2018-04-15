@@ -1,0 +1,6 @@
+hid-wiimote-debug.c:122:12:wiidebug_drm_open	16	static
+hid-wiimote-debug.c:101:12:wiidebug_drm_show	32	static
+hid-wiimote-debug.c:127:16:wiidebug_drm_write	80	static
+hid-wiimote-debug.c:26:16:wiidebug_eeprom_read	112	static
+hid-wiimote-debug.c:175:5:wiidebug_init	48	static
+hid-wiimote-debug.c:210:6:wiidebug_deinit	48	static

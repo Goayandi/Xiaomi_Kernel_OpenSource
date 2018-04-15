@@ -1,0 +1,6 @@
+clk-mtk.c:29:34:mtk_alloc_clk_data	32	static
+clk-mtk.c:54:13:mtk_clk_register_fixed_clks	64	static
+clk-mtk.c:77:13:mtk_clk_register_factors	64	static
+clk-mtk.c:100:12:mtk_clk_register_gates	64	static
+clk-mtk.c:140:21:mtk_clk_register_composite	160	static
+clk-mtk.c:232:13:mtk_clk_register_composites	80	static

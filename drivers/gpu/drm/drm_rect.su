@@ -1,0 +1,9 @@
+drm_rect.c:42:6:drm_rect_intersect	0	static
+drm_rect.c:68:6:drm_rect_clip_scaled	0	static
+drm_rect.c:127:5:drm_rect_calc_hscale	0	static
+drm_rect.c:158:5:drm_rect_calc_vscale	0	static
+drm_rect.c:195:5:drm_rect_calc_hscale_relaxed	0	static
+drm_rect.c:245:5:drm_rect_calc_vscale_relaxed	0	static
+drm_rect.c:281:6:drm_rect_debug_print	32	static
+drm_rect.c:313:6:drm_rect_rotate	0	static
+drm_rect.c:387:6:drm_rect_rotate_inv	0	static

@@ -1,0 +1,9 @@
+keycombo.c:45:13:do_key_down	16	static
+keycombo.c:234:5:keycombo_remove	32	static
+keycombo.c:154:13:keycombo_disconnect	32	static
+keycombo.c:55:13:do_key_up	32	static
+keycombo.c:64:13:keycombo_event	64	static
+keycombo.c:170:12:keycombo_probe	64	static
+keycombo.c:255:20:keycombo_exit	16	static
+keycombo.c:250:19:keycombo_init	16	static
+keycombo.c:112:12:keycombo_connect	48	static

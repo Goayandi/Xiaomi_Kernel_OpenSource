@@ -1,0 +1,7 @@
+option.c:2099:1:usb_serial_module_init	16	static
+option.c:2206:13:option_instat_callback	48	static
+option.c:2197:13:option_release	32	static
+option.c:2266:12:option_send_setup	64	static
+option.c:2161:12:option_attach	48	static
+option.c:2099:1:usb_serial_module_exit	16	static
+option.c:2125:12:option_probe	64	static

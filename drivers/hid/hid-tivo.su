@@ -1,0 +1,3 @@
+hid-tivo.c:77:1:tivo_driver_init	16	static
+hid-tivo.c:25:12:tivo_input_mapping	16	static
+hid-tivo.c:77:1:tivo_driver_exit	16	static

@@ -1,0 +1,8 @@
+drm_lock.c:301:12:drm_notifier	16	static
+drm_lock.c:186:5:drm_lock_take	80	static
+drm_lock.c:56:5:drm_legacy_lock	160	static
+drm_lock.c:261:5:drm_legacy_lock_free	64	static
+drm_lock.c:154:5:drm_legacy_unlock	16	static
+drm_lock.c:335:6:drm_legacy_idlelock_take	48	static
+drm_lock.c:354:6:drm_legacy_idlelock_release	64	static
+drm_lock.c:374:5:drm_legacy_i_have_hw_lock	0	static

@@ -1,0 +1,3 @@
+mt_cam.c:91:6:hwpoweron	64	static
+mt_cam.c:143:6:hwpowerdown	48	static
+mt_cam.c:191:5:kdCISModulePowerOn	96	static

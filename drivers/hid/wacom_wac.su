@@ -1,0 +1,15 @@
+wacom_wac.c:1152:12:wacom_tpc_single_touch	48	static
+wacom_wac.c:1192:12:wacom_tpc_pen	48	static
+wacom_wac.c:620:12:wacom_intuos_irq	64	static
+wacom_wac.c:967:13:wacom_intuos_bt_process_data	32	static
+wacom_wac.c:1653:12:wacom_bpt3_touch	112	static
+wacom_wac.c:1257:13:wacom_map_usage.isra.7	80	static
+wacom_wac.c:1918:13:wacom_setup_cintiq.isra.8	32	static
+wacom_wac.c:1939:13:wacom_setup_intuos	32	static
+wacom_wac.c:1497:6:wacom_wac_usage_mapping	64	static
+wacom_wac.c:1514:5:wacom_wac_event	16	static
+wacom_wac.c:1531:6:wacom_wac_report	48	static
+wacom_wac.c:1818:6:wacom_wac_irq	192	static
+wacom_wac.c:1959:6:wacom_setup_device_quirks	0	static
+wacom_wac.c:2038:5:wacom_setup_input_capabilities	48	static
+wacom_wac.c:2278:5:wacom_setup_pad_input_capabilities	32	static

@@ -1,0 +1,8 @@
+rgxtimecorr.c:124:13:_RGXGPUFreqCalibrationPeriodStart	64	static
+rgxtimecorr.c:160:13:_RGXGPUFreqCalibrationPeriodStop.isra.0	48	static
+rgxtimecorr.c:68:13:_RGXMakeTimeCorrData.isra.2	96	static
+rgxtimecorr.c:216:6:RGXGPUFreqCalibratePrePowerOff	48	static
+rgxtimecorr.c:234:6:RGXGPUFreqCalibratePostPowerOn	32	static
+rgxtimecorr.c:261:6:RGXGPUFreqCalibratePreClockSpeedChange	16	static
+rgxtimecorr.c:277:12:RGXGPUFreqCalibratePostClockSpeedChange	64	static
+rgxtimecorr.c:310:6:RGXGPUFreqCalibrateCorrelatePeriodic	64	static

@@ -1,0 +1,9 @@
+hdmi.c:50:5:hdmi_avi_infoframe_init	0	static
+hdmi.c:76:9:hdmi_avi_infoframe_pack	48	static
+hdmi.c:153:5:hdmi_spd_infoframe_init	32	static
+hdmi.c:183:9:hdmi_spd_infoframe_pack	48	static
+hdmi.c:221:5:hdmi_audio_infoframe_init	0	static
+hdmi.c:247:9:hdmi_audio_infoframe_pack	48	static
+hdmi.c:296:5:hdmi_vendor_infoframe_init	0	static
+hdmi.c:329:9:hdmi_vendor_infoframe_pack	48	static
+hdmi.c:411:1:hdmi_infoframe_pack	16	static

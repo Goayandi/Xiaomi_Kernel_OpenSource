@@ -1,0 +1,3 @@
+drm_auth.c:111:5:drm_remove_magic	64	static
+drm_auth.c:149:5:drm_getmagic	96	static
+drm_auth.c:188:5:drm_authmagic	80	static

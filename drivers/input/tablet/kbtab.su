@@ -1,0 +1,7 @@
+kbtab.c:210:1:kbtab_driver_init	16	static
+kbtab.c:191:13:kbtab_disconnect	32	static
+kbtab.c:99:12:kbtab_open	16	static
+kbtab.c:40:13:kbtab_irq	48	static
+kbtab.c:110:13:kbtab_close	16	static
+kbtab.c:117:12:kbtab_probe	64	static
+kbtab.c:210:1:kbtab_driver_exit	16	static

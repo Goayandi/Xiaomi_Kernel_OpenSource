@@ -1,0 +1,6 @@
+drm_fops.c:138:12:drm_open_helper	64	static
+drm_fops.c:80:5:drm_open	48	static
+drm_fops.c:332:5:drm_lastclose	48	static
+drm_fops.c:371:5:drm_release	112	static
+drm_fops.c:513:9:drm_read	144	static
+drm_fops.c:543:14:drm_poll	32	static

@@ -1,0 +1,4 @@
+hid-gaff.c:177:1:ga_driver_init	16	static
+hid-gaff.c:141:12:ga_probe	48	static
+hid-gaff.c:42:12:hid_gaff_play	64	static
+hid-gaff.c:177:1:ga_driver_exit	16	static

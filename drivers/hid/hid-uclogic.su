@@ -1,0 +1,4 @@
+hid-uclogic.c:549:14:uclogic_report_fixup	0	static
+hid-uclogic.c:680:1:uclogic_driver_init	16	static
+hid-uclogic.c:680:1:uclogic_driver_exit	16	static
+hid-uclogic.c:629:12:uclogic_probe	32	static

@@ -1,0 +1,2 @@
+bcmevent.c:173:13:bcmevent_get_name	0	static
+bcmevent.c:207:1:is_wlc_event_frame	64	static

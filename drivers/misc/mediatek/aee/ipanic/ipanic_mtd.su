@@ -1,0 +1,9 @@
+ipanic_mtd.c:168:13:ipanic_mtd_block_erase	256	static
+ipanic_mtd.c:161:13:ipanic_mtd_block_erase_callback	16	static
+ipanic_mtd.c:245:13:ipanic_mtd_notify_remove	32	static
+ipanic_mtd.c:222:13:ipanic_mtd_notify_add	64	static
+ipanic_mtd.c:260:6:ipanic_msdc_init	16	static
+ipanic_mtd.c:266:5:ipanic_msdc_info	32	static
+ipanic_mtd.c:284:7:ipanic_read_size	144	static
+ipanic_mtd.c:310:5:ipanic_write_size	112	static
+ipanic_mtd.c:336:6:ipanic_erase	16	static

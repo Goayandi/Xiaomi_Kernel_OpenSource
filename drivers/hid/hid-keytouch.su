@@ -1,0 +1,3 @@
+hid-keytouch.c:52:1:keytouch_driver_init	16	static
+hid-keytouch.c:30:14:keytouch_report_fixup	32	static
+hid-keytouch.c:52:1:keytouch_driver_exit	16	static

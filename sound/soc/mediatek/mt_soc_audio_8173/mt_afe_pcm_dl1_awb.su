@@ -1,0 +1,14 @@
+mt_afe_pcm_dl1_awb.c:190:12:mt_pcm_dl1_awb_prepare	0	static
+mt_afe_pcm_dl1_awb.c:255:13:dl1_awb_mux_get	0	static
+mt_afe_pcm_dl1_awb.c:264:12:dl1_awb_mux_set	0	static
+mt_afe_pcm_dl1_awb.c:347:1:mt_pcm_dl1_awb_driver_init	16	static
+mt_afe_pcm_dl1_awb.c:323:12:mt_pcm_dl1_awb_dev_remove	16	static
+mt_afe_pcm_dl1_awb.c:233:26:mt_pcm_dl1_awb_pointer	16	static
+mt_afe_pcm_dl1_awb.c:184:12:mt_pcm_dl1_awb_hw_free	16	static
+mt_afe_pcm_dl1_awb.c:159:12:mt_pcm_dl1_awb_hw_params	32	static
+mt_afe_pcm_dl1_awb.c:151:12:mt_pcm_dl1_awb_close	16	static
+mt_afe_pcm_dl1_awb.c:118:12:mt_pcm_dl1_awb_open	32	static
+mt_afe_pcm_dl1_awb.c:283:12:mt_pcm_dl1_awb_probe	16	static
+mt_afe_pcm_dl1_awb.c:295:12:mt_pcm_dl1_awb_dev_probe	32	static
+mt_afe_pcm_dl1_awb.c:347:1:mt_pcm_dl1_awb_driver_exit	16	static
+mt_afe_pcm_dl1_awb.c:218:12:mt_pcm_dl1_awb_trigger	48	static

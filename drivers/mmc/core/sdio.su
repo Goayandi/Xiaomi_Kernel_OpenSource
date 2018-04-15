@@ -1,0 +1,14 @@
+sdio.c:942:12:mmc_sdio_pre_suspend	0	static
+sdio.c:873:12:mmc_sdio_alive	16	static
+sdio.c:1087:12:mmc_sdio_runtime_suspend	16	static
+sdio.c:209:12:sdio_enable_wide.part.10	48	static
+sdio.c:964:12:mmc_sdio_suspend	48	static
+sdio.c:852:13:mmc_sdio_remove	48	static
+sdio.c:881:13:mmc_sdio_detect	48	static
+sdio.c:297:12:sdio_enable_4bit_bus	32	static
+sdio.c:591:12:mmc_sdio_init_card	128	static
+sdio.c:1041:12:mmc_sdio_power_restore	32	static
+sdio.c:1094:12:mmc_sdio_runtime_resume	32	static
+sdio.c:984:12:mmc_sdio_resume	32	static
+sdio.c:1117:5:mmc_attach_sdio	96	static
+sdio.c:1262:5:sdio_reset_comm	80	static

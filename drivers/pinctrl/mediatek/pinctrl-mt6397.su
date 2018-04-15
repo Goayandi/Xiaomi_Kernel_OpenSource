@@ -1,0 +1,2 @@
+pinctrl-mt6397.c:69:19:mtk_pinctrl_init	16	static
+pinctrl-mt6397.c:46:12:mt6397_pinctrl_probe	16	static

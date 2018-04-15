@@ -1,0 +1,2 @@
+rgx_hwperf_table.c:49:17:rgxfw_hwperf_pow_st_true	0	static
+rgx_hwperf_table.c:291:1:RGXGetHWPerfBlockConfig	0	static

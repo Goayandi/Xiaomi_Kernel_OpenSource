@@ -1,0 +1,4 @@
+drm_dma.c:48:5:drm_legacy_dma_setup	32	static
+drm_dma.c:78:6:drm_legacy_dma_takedown	96	static
+drm_dma.c:128:6:drm_legacy_free_buffer	0	static
+drm_dma.c:146:6:drm_legacy_reclaim_buffers	0	static

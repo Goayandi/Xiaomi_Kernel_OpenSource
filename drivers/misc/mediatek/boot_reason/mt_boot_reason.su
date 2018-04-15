@@ -1,0 +1,7 @@
+mt_boot_reason.c:142:19:boot_reason_init	0	static
+mt_boot_reason.c:59:19:hardware_id_check	32	static
+mt_boot_reason.c:71:19:dt_get_boot_reason	48	static
+mt_boot_reason.c:97:6:init_boot_reason.part.1	32	static
+mt_boot_reason.c:136:19:boot_reason_core	32	static
+mt_boot_reason.c:97:6:init_boot_reason	32	static
+mt_boot_reason.c:130:20:get_boot_reason	32	static

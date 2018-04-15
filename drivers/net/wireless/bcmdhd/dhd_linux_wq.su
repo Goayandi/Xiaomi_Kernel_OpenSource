@@ -1,0 +1,4 @@
+dhd_linux_wq.c:294:13:dhd_deferred_work_handler	112	static
+dhd_linux_wq.c:176:6:dhd_deferred_work_deinit	32	static
+dhd_linux_wq.c:101:7:dhd_deferred_work_init	80	static
+dhd_linux_wq.c:207:1:dhd_deferred_schedule_work	96	static

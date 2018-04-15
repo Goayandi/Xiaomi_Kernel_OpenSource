@@ -1,0 +1,11 @@
+module_common.c:184:18:LinuxConnectionFromFile	0	static
+module_common.c:196:14:LinuxFileFromConnection	0	static
+module_common.c:211:5:PVRSRVCommonDriverInit	32	static
+module_common.c:268:6:PVRSRVCommonDriverDeinit	16	static
+module_common.c:301:5:PVRSRVCommonDeviceInit	32	static
+module_common.c:380:6:PVRSRVCommonDeviceDeinit	32	static
+module_common.c:413:6:PVRSRVCommonDeviceShutdown	32	static
+module_common.c:432:5:PVRSRVCommonDeviceSuspend	32	static
+module_common.c:460:5:PVRSRVCommonDeviceResume	32	static
+module_common.c:491:5:PVRSRVCommonDeviceOpen	80	static
+module_common.c:556:6:PVRSRVCommonDeviceRelease	32	static

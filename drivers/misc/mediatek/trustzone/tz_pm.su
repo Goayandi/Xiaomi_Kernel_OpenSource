@@ -1,0 +1,2 @@
+tz_pm.c:22:6:kree_pm_init	16	static
+tz_pm.c:77:5:kree_pm_device_ops	96	static

@@ -1,0 +1,5 @@
+hid-holtek-kbd.c:108:14:holtek_kbd_report_fixup	0	static
+hid-holtek-kbd.c:170:1:holtek_kbd_driver_init	16	static
+hid-holtek-kbd.c:120:12:holtek_kbd_input_event	48	static
+hid-holtek-kbd.c:138:12:holtek_kbd_probe	48	static
+hid-holtek-kbd.c:170:1:holtek_kbd_driver_exit	16	static

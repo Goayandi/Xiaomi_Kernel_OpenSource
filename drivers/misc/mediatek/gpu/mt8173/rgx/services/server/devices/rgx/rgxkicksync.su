@@ -1,0 +1,3 @@
+rgxkicksync.c:70:14:PVRSRVRGXCreateKickSyncContextKM	128	static
+rgxkicksync.c:141:14:PVRSRVRGXDestroyKickSyncContextKM	48	static
+rgxkicksync.c:184:14:PVRSRVRGXKickSyncKM	624	static

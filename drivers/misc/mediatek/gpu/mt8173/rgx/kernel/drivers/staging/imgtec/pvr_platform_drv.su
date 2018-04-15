@@ -1,0 +1,5 @@
+pvr_platform_drv.c:182:13:pvr_shutdown	32	static
+pvr_platform_drv.c:170:12:pvr_remove	32	static
+pvr_platform_drv.c:161:12:pvr_probe	32	static
+pvr_platform_drv.c:246:20:pvr_exit	32	static
+pvr_platform_drv.c:224:19:pvr_init	16	static

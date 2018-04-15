@@ -1,0 +1,6 @@
+event.c:105:14:LinuxEventObjectListCreate	32	static
+event.c:139:14:LinuxEventObjectListDestroy	16	static
+event.c:172:14:LinuxEventObjectDelete	32	static
+event.c:210:14:LinuxEventObjectAdd	48	static
+event.c:258:14:LinuxEventObjectSignal	48	static
+event.c:296:14:LinuxEventObjectWait	144	static

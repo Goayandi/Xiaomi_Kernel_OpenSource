@@ -1,0 +1,9 @@
+rgxcompute.c:79:14:PVRSRVRGXCreateComputeContextKM	160	static
+rgxcompute.c:211:14:PVRSRVRGXDestroyComputeContextKM	48	static
+rgxcompute.c:252:14:PVRSRVRGXKickCDMKM	592	static
+rgxcompute.c:439:25:PVRSRVRGXFlushComputeDataKM	208	static
+rgxcompute.c:489:14:PVRSRVRGXNotifyComputeWriteOffsetUpdateKM	0	static
+rgxcompute.c:529:14:PVRSRVRGXSetComputeContextPriorityKM	32	static
+rgxcompute.c:553:14:PVRSRVRGXGetLastComputeContextResetReasonKM	32	static
+rgxcompute.c:567:6:CheckForStalledComputeCtxt	64	static
+rgxcompute.c:583:10:CheckForStalledClientComputeCtxt	64	static

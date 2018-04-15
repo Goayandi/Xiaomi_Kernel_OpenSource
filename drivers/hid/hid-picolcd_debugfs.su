@@ -1,0 +1,13 @@
+hid-picolcd_debugfs.c:121:16:picolcd_debug_eeprom_write	96	static
+hid-picolcd_debugfs.c:82:16:picolcd_debug_eeprom_read	80	static
+hid-picolcd_debugfs.c:189:16:_picolcd_flash_read	128	static
+hid-picolcd_debugfs.c:225:16:picolcd_debug_flash_read	16	static
+hid-picolcd_debugfs.c:42:12:picolcd_debug_reset_open	16	static
+hid-picolcd_debugfs.c:33:12:picolcd_debug_reset_show	16	static
+hid-picolcd_debugfs.c:47:16:picolcd_debug_reset_write	80	static
+hid-picolcd_debugfs.c:378:13:dump_buff_as_hex.constprop	0	static
+hid-picolcd_debugfs.c:308:16:picolcd_debug_flash_write	192	static
+hid-picolcd_debugfs.c:394:6:picolcd_debug_out_report	80	static
+hid-picolcd_debugfs.c:651:6:picolcd_debug_raw_event	80	static
+hid-picolcd_debugfs.c:847:6:picolcd_init_devfs	80	static
+hid-picolcd_debugfs.c:880:6:picolcd_exit_devfs	32	static

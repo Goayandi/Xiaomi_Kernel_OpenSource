@@ -1,0 +1,10 @@
+keychord.c:320:21:keychord_poll	32	static
+keychord.c:388:20:keychord_exit	16	static
+keychord.c:357:12:keychord_release	32	static
+keychord.c:186:13:keychord_disconnect	32	static
+keychord.c:83:13:keychord_event	48	static
+keychord.c:332:12:keychord_open	32	static
+keychord.c:231:16:keychord_write	80	static
+keychord.c:196:16:keychord_read	96	static
+keychord.c:383:19:keychord_init	16	static
+keychord.c:138:12:keychord_connect	48	static

@@ -1,0 +1,2 @@
+earlycon.c:114:12:setup_earlycon	96	static
+earlycon.c:151:12:of_setup_earlycon	48	static

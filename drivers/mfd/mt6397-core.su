@@ -1,0 +1,14 @@
+mt6397-core.c:178:13:mt6397_irq_disable	0	static
+mt6397-core.c:187:13:mt6397_irq_enable	0	static
+mt6397-core.c:197:12:mt6397_irq_set_wake	0	static
+mt6397-core.c:451:1:mt6397_driver_init	16	static
+mt6397-core.c:317:12:mt6397_irq_resume	32	static
+mt6397-core.c:302:12:mt6397_irq_suspend	32	static
+mt6397-core.c:223:13:mt6397_irq_handle_reg	64	static
+mt6397-core.c:246:20:mt6397_irq_thread	32	static
+mt6397-core.c:168:13:mt6397_irq_sync_unlock	32	static
+mt6397-core.c:161:13:mt6397_irq_lock	16	static
+mt6397-core.c:256:12:mt6397_irq_domain_map	32	static
+mt6397-core.c:273:12:mt6397_irq_init	32	static
+mt6397-core.c:336:12:mt6397_probe	64	static
+mt6397-core.c:451:1:mt6397_driver_exit	16	static

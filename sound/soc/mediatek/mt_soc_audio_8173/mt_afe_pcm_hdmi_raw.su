@@ -1,0 +1,11 @@
+mt_afe_pcm_hdmi_raw.c:353:1:mt_pcm_hdmi_raw_driver_init	16	static
+mt_afe_pcm_hdmi_raw.c:330:12:mt_pcm_hdmi_raw_dev_remove	16	static
+mt_afe_pcm_hdmi_raw.c:284:26:mt_pcm_hdmi_raw_pointer	16	static
+mt_afe_pcm_hdmi_raw.c:106:12:mt_pcm_hdmi_raw_prepare	32	static
+mt_afe_pcm_hdmi_raw.c:101:12:mt_pcm_hdmi_raw_hw_free	16	static
+mt_afe_pcm_hdmi_raw.c:79:12:mt_pcm_hdmi_raw_hw_params	32	static
+mt_afe_pcm_hdmi_raw.c:62:12:mt_pcm_hdmi_raw_close	32	static
+mt_afe_pcm_hdmi_raw.c:44:12:mt_pcm_hdmi_raw_open	32	static
+mt_afe_pcm_hdmi_raw.c:304:12:mt_pcm_hdmi_raw_dev_probe	32	static
+mt_afe_pcm_hdmi_raw.c:353:1:mt_pcm_hdmi_raw_driver_exit	16	static
+mt_afe_pcm_hdmi_raw.c:265:12:mt_pcm_hdmi_raw_trigger	48	static

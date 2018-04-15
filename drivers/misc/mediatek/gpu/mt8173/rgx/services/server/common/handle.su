@@ -1,0 +1,17 @@
+handle.c:1024:21:AllocHandle	144	static
+handle.c:871:21:FreeHandle.constprop	128	static
+handle.c:160:6:LockHandle	16	static
+handle.c:165:6:UnlockHandle	16	static
+handle.c:1801:21:FreeHandleDataWrapper	80	static
+handle.c:1131:14:PVRSRVAllocHandle	64	static
+handle.c:1186:14:PVRSRVAllocSubHandle	128	static
+handle.c:1291:14:PVRSRVFindHandle	80	static
+handle.c:1353:14:PVRSRVLookupHandle	96	static
+handle.c:1421:14:PVRSRVLookupSubHandle	96	static
+handle.c:1496:14:PVRSRVGetParentHandle	80	static
+handle.c:1551:14:PVRSRVReleaseHandle	48	static
+handle.c:1590:14:PVRSRVPurgeHandles	32	static
+handle.c:1627:14:PVRSRVAllocHandleBase	48	static
+handle.c:1961:14:PVRSRVFreeHandleBase	112	static
+handle.c:2135:14:PVRSRVHandleDeInit	48	static
+handle.c:2071:14:PVRSRVHandleInit	48	static

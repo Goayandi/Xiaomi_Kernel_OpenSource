@@ -1,0 +1,11 @@
+rgxpower.c:70:13:_RGXUpdateGPUUtilStats	48	static
+rgxpower.c:125:14:RGXPrePowerState	208	static
+rgxpower.c:286:14:RGXPostPowerState	48	static
+rgxpower.c:415:14:RGXPreClockSpeedChange	16	static
+rgxpower.c:443:14:RGXPostClockSpeedChange	176	static
+rgxpower.c:509:14:RGXDustCountChange	224	static
+rgxpower.c:601:14:RGXAPMLatencyChange	224	static
+rgxpower.c:658:14:RGXActivePowerRequest	48	static
+rgxpower.c:723:14:RGXForcedIdleRequest	208	static
+rgxpower.c:816:14:RGXCancelForcedIdleRequest	192	static
+rgxpower.c:902:12:RGXGetNextDustCount	0	static

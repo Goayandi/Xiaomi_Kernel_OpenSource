@@ -1,0 +1,4 @@
+DW9714AF.c:98:12:s4AF_SetPosition	48	static
+DW9714AF.c:247:6:DW9714AF_Ioctl_Main	112	static
+DW9714AF.c:282:5:DW9714AF_Release_Main	48	static
+DW9714AF.c:315:6:DW9714AF_SetI2Cclient_Main	0	static

@@ -1,0 +1,15 @@
+ti_i2c_tusb320.c:605:12:ti_tusb320_remove	0	static
+ti_i2c_tusb320.c:656:20:ti_tusb320_exit	16	static
+ti_i2c_tusb320.c:59:12:ti_tusb320_i2c_read	112	static
+ti_i2c_tusb320.c:323:12:ti_tusb320_get_id_status	32	static
+ti_i2c_tusb320.c:410:16:show_Cable_Orientation	48	static
+ti_i2c_tusb320.c:426:16:show_usb_hs_id	48	static
+ti_i2c_tusb320.c:651:19:ti_tusb320_init	16	static
+ti_i2c_tusb320.c:112:12:ti_tusb320_i2c_write.constprop	96	static
+ti_i2c_tusb320.c:271:12:ti_tusb320_set_trysnk_drp_mode	48	static
+ti_i2c_tusb320.c:183:12:ti_tusb320_set_role_mode	96	static
+ti_i2c_tusb320.c:365:20:ti_tusb320_irq_handler	64	static
+ti_i2c_tusb320.c:154:12:ti_tusb320l_set_role_mode	64	static
+ti_i2c_tusb320.c:610:13:ti_tusb320_shutdown	16	static
+ti_i2c_tusb320.c:335:12:ti_tusb320_set_id_status	32	static
+ti_i2c_tusb320.c:440:12:ti_tusb320_probe	80	static

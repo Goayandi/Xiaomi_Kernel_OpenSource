@@ -1,0 +1,16 @@
+wldev_common.c:52:5:wldev_ioctl	48	static
+wldev_common.c:81:5:wldev_iovar_getbuf	112	static
+wldev_common.c:96:5:wldev_iovar_setbuf	112	static
+wldev_common.c:116:5:wldev_iovar_setint	336	static
+wldev_common.c:126:5:wldev_iovar_getint	352	static
+wldev_common.c:145:5:wldev_mkiovar_bsscfg	80	static
+wldev_common.c:191:5:wldev_iovar_getbuf_bsscfg	112	static
+wldev_common.c:210:5:wldev_iovar_setbuf_bsscfg	128	static
+wldev_common.c:234:5:wldev_iovar_setint_bsscfg	336	static
+wldev_common.c:246:5:wldev_iovar_getint_bsscfg	368	static
+wldev_common.c:264:5:wldev_get_link_speed	64	static
+wldev_common.c:279:5:wldev_get_rssi	80	static
+wldev_common.c:296:5:wldev_get_ssid	48	static
+wldev_common.c:309:5:wldev_get_band	48	static
+wldev_common.c:317:5:wldev_set_band	80	static
+wldev_common.c:331:5:wldev_set_country	352	static

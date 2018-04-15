@@ -1,0 +1,4 @@
+pvr_bridge_k.c:212:1:LinuxBridgeInit	16	static
+pvr_bridge_k.c:477:1:LinuxBridgeDeInit	16	static
+pvr_bridge_k.c:820:1:PVRSRV_BridgeDispatchKM	80	static
+pvr_bridge_k.c:859:1:PVRSRV_MMap	80	static

@@ -1,0 +1,6 @@
+hid-zydacron.c:209:1:zc_driver_init	16	static
+hid-zydacron.c:48:12:zc_input_mapping	64	static
+hid-zydacron.c:112:12:zc_raw_event	48	static
+hid-zydacron.c:167:12:zc_probe	48	static
+hid-zydacron.c:209:1:zc_driver_exit	16	static
+hid-zydacron.c:30:14:zc_report_fixup	32	static

@@ -1,0 +1,12 @@
+rgxmmuinit.c:765:19:RGXDerivePCEProt4	0	static
+rgxmmuinit.c:986:21:RGXPutPageSizeConfigCB	0	static
+rgxmmuinit.c:1038:21:RGXGetPageSizeFromPDE8	0	static
+rgxmmuinit.c:1030:21:RGXGetPageSizeFromPDE4	16	static
+rgxmmuinit.c:850:19:RGXDerivePTEProt4	16	static
+rgxmmuinit.c:863:19:RGXDerivePTEProt8	32	static
+rgxmmuinit.c:791:19:RGXDerivePDEProt4	16	static
+rgxmmuinit.c:776:19:RGXDerivePCEProt8	16	static
+rgxmmuinit.c:921:21:RGXGetPageSizeConfigCB	16	static
+rgxmmuinit.c:809:19:RGXDerivePDEProt8	16	static
+rgxmmuinit.c:181:14:RGXMMUInit_Register	32	static
+rgxmmuinit.c:707:14:RGXMMUInit_Unregister	16	static

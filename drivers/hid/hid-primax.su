@@ -1,0 +1,3 @@
+hid-primax.c:78:1:px_driver_init	16	static
+hid-primax.c:25:12:px_raw_event	16	static
+hid-primax.c:78:1:px_driver_exit	16	static

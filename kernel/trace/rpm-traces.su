@@ -1,0 +1,8 @@
+rpm.h:17:1:perf_trace_rpm_internal	96	static
+rpm.h:77:1:perf_trace_rpm_return_int	96	static
+rpm.h:17:1:ftrace_raw_event_rpm_internal	112	static
+rpm.h:77:1:ftrace_raw_event_rpm_return_int	112	static
+rpm.h:17:1:ftrace_raw_output_rpm_internal	48	static
+rpm.h:77:1:ftrace_raw_output_rpm_return_int	32	static
+rpm.h:17:1:ftrace_define_fields_rpm_internal	32	static
+rpm.h:77:1:ftrace_define_fields_rpm_return_int	32	static

@@ -1,0 +1,4 @@
+dhd_custom_gpio.c:72:5:dhd_customer_oob_irq_map	16	static
+dhd_custom_gpio.c:106:5:dhd_customer_gpio_wlan_ctrl	0	static
+dhd_custom_gpio.c:115:5:dhd_custom_get_mac_address	16	static
+dhd_custom_gpio.c:255:6:get_customized_country_code	32	static

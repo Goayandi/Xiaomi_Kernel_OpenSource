@@ -1,0 +1,8 @@
+mt_usb.c:40:6:mt_usb_is_device	32	static
+mt_usb.c:49:6:connection_work	64	static
+mt_usb.c:109:6:mt_usb_is_ready	0	static
+mt_usb.c:121:6:mt_usb_connect	32	static
+mt_usb.c:140:6:mt_usb_disconnect	32	static
+mt_usb.c:160:6:usb_cable_connected	32	static
+mt_usb.c:197:6:usb_check_connect	16	static
+mt_usb.c:208:6:musb_sync_with_bat	16	static

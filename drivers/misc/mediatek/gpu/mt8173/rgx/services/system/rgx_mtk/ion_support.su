@@ -1,0 +1,5 @@
+ion_support.c:148:14:IonInit	16	static
+ion_support.c:155:20:IonDevAcquire	0	static
+ion_support.c:160:6:IonDevRelease	0	static
+ion_support.c:166:6:IonDeinit	16	static
+ion_support.c:171:20:MTKGetIonClient	0	static

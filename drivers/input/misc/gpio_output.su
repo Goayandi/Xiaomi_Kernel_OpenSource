@@ -1,0 +1,2 @@
+gpio_output.c:20:5:gpio_event_output_event	64	static
+gpio_output.c:38:5:gpio_event_output_func	64	static

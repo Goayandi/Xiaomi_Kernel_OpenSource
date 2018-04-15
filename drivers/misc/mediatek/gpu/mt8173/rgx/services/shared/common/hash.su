@@ -1,0 +1,13 @@
+hash.c:126:1:HASH_Func_Default	0	static
+hash.c:166:1:HASH_Key_Comp_Default	0	static
+hash.c:248:1:_Resize.part.0	80	static
+hash.c:298:14:HASH_Create_Extended	64	static
+hash.c:361:14:HASH_Create	16	static
+hash.c:376:1:HASH_Delete	48	static
+hash.c:447:1:HASH_Insert_Extended	64	static
+hash.c:501:1:HASH_Insert	32	static
+hash.c:515:1:HASH_Remove_Extended	48	static
+hash.c:575:1:HASH_Remove	32	static
+hash.c:589:1:HASH_Retrieve_Extended	48	static
+hash.c:627:1:HASH_Retrieve	32	static
+hash.c:641:1:HASH_Iterate	48	static

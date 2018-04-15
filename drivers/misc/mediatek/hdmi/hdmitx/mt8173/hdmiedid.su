@@ -1,0 +1,16 @@
+hdmiedid.c:114:6:fgIsHdmiNoEDIDCheck	16	static
+hdmiedid.c:121:6:vSetNoEdidChkInfo	16	static
+hdmiedid.c:171:6:vClearEdidInfo	16	static
+hdmiedid.c:236:6:vShowEdidRawData	0	static
+hdmiedid.c:286:15:hdmi_fgreadedid	64	static
+hdmiedid.c:342:6:vAnalyzeDTD	96	static
+hdmiedid.c:427:15:fgParserEDID	32	static
+hdmiedid.c:485:6:vSetEdidChkError	16	static
+hdmiedid.c:542:6:vParserCEADataBlock	160	static
+hdmiedid.c:1266:15:fgParserExtEDID	64	static
+hdmiedid.c:1341:6:vParserExtEDIDState	48	static
+hdmiedid.c:1363:6:hdmi_checkedid	80	static
+hdmiedid.c:1424:15:vCheckPcmBitSize	0	static
+hdmiedid.c:1445:6:vShowEdidInformation	48	static
+hdmiedid.c:1744:6:hdmi_AppGetEdidInfo	48	static
+hdmiedid.c:1811:15:hdmi_check_edid_header	0	static

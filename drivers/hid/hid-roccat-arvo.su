@@ -1,0 +1,13 @@
+hid-roccat-arvo.c:449:20:arvo_exit	16	static
+hid-roccat-arvo.c:378:13:arvo_remove	32	static
+hid-roccat-arvo.c:347:12:arvo_probe	64	static
+hid-roccat-arvo.c:155:16:arvo_sysfs_set_actual_profile	64	static
+hid-roccat-arvo.c:101:16:arvo_sysfs_set_key_mask	64	static
+hid-roccat-arvo.c:51:16:arvo_sysfs_set_mode_key	64	static
+hid-roccat-arvo.c:146:16:arvo_sysfs_show_actual_profile	16	static
+hid-roccat-arvo.c:81:16:arvo_sysfs_show_key_mask	64	static
+hid-roccat-arvo.c:31:16:arvo_sysfs_show_mode_key	64	static
+hid-roccat-arvo.c:434:19:arvo_init	32	static
+hid-roccat-arvo.c:405:12:arvo_raw_event	32	static
+hid-roccat-arvo.c:233:16:arvo_sysfs_write_button	48	static
+hid-roccat-arvo.c:243:16:arvo_sysfs_read_info	48	static

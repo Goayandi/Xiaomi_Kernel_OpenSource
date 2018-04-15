@@ -1,0 +1,6 @@
+md4.c:84:13:md4_transform	96	static
+md4.c:156:12:md4_init	0	static
+md4.c:248:20:md4_mod_fini	16	static
+md4.c:201:12:md4_final	48	static
+md4.c:169:12:md4_update	64	static
+md4.c:243:19:md4_mod_init	16	static

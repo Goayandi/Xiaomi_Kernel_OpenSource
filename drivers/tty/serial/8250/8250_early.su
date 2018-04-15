@@ -1,0 +1,9 @@
+8250_early.c:159:1:uart8250_setup_earlycon	16	static
+8250_early.c:160:1:uart_setup_earlycon	16	static
+8250_early.c:41:28:serial8250_early_in	0	static
+8250_early.c:55:20:serial8250_early_out	0	static
+8250_early.c:90:20:early_serial8250_write	48	static
+8250_early.c:84:20:serial_putc	48	static
+8250_early.c:141:19:early_serial8250_setup	64	static
+8250_early.c:162:12:setup_early_serial8250_console	32	static
+8250_early.c:172:5:serial8250_find_port_for_earlycon	48	static

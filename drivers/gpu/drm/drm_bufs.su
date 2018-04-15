@@ -1,0 +1,16 @@
+drm_bufs.c:39:29:drm_find_matching_map	0	static
+drm_bufs.c:559:13:drm_cleanup_buf_error	48	static
+drm_bufs.c:132:12:drm_addmap_core	112	static
+drm_bufs.c:364:5:drm_legacy_addmap	48	static
+drm_bufs.c:389:5:drm_legacy_addmap_ioctl	48	static
+drm_bufs.c:429:5:drm_legacy_rmmap_locked	80	static
+drm_bufs.c:485:5:drm_legacy_rmmap	48	static
+drm_bufs.c:512:5:drm_legacy_rmmap_ioctl	48	static
+drm_bufs.c:761:5:drm_legacy_addbufs_pci	208	static
+drm_bufs.c:1136:5:drm_legacy_addbufs	176	static
+drm_bufs.c:1180:5:drm_legacy_infobufs	96	static
+drm_bufs.c:1261:5:drm_legacy_markbufs	32	static
+drm_bufs.c:1308:5:drm_legacy_freebufs	80	static
+drm_bufs.c:1361:5:drm_legacy_mapbufs	96	static
+drm_bufs.c:1449:5:drm_legacy_dma_ioctl	16	static
+drm_bufs.c:1461:23:drm_legacy_getsarea	0	static

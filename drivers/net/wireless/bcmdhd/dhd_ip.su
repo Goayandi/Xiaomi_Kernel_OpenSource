@@ -1,0 +1,7 @@
+dhd_ip.c:50:12:pkt_frag_info	32	static
+dhd_ip.c:124:6:pkt_is_dhcp	32	static
+dhd_ip.c:357:5:dhd_tcpack_suppress_set	96	static
+dhd_ip.c:433:6:dhd_tcpack_info_tbl_clean	32	static
+dhd_ip.c:458:12:dhd_tcpack_check_xmit	80	static
+dhd_ip.c:610:6:dhd_tcpack_suppress	272	static
+dhd_ip.c:837:6:dhd_tcpdata_info_get	208	static

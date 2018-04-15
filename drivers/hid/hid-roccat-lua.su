@@ -1,0 +1,6 @@
+hid-roccat-lua.c:211:1:lua_driver_init	16	static
+hid-roccat-lua.c:192:13:lua_remove	32	static
+hid-roccat-lua.c:161:12:lua_probe	48	static
+hid-roccat-lua.c:211:1:lua_driver_exit	16	static
+hid-roccat-lua.c:98:1:lua_sysfs_read_control	48	static
+hid-roccat-lua.c:98:1:lua_sysfs_write_control	48	static

@@ -1,0 +1,7 @@
+drm_flip_work.c:111:13:flip_worker	96	static
+drm_flip_work.c:34:23:drm_flip_work_allocate_task	32	static
+drm_flip_work.c:54:6:drm_flip_work_queue_task	48	static
+drm_flip_work.c:73:6:drm_flip_work_queue	48	static
+drm_flip_work.c:98:6:drm_flip_work_commit	48	static
+drm_flip_work.c:144:6:drm_flip_work_init	0	static
+drm_flip_work.c:163:6:drm_flip_work_cleanup	16	static

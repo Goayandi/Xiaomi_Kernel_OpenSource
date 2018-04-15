@@ -1,0 +1,10 @@
+tm_nth.c:345:12:tm_nth_get_sys_cpu_usage_info_ex	128	static
+tm_nth.c:593:20:mtk_cooler_tm_nth_exit	16	static
+tm_nth.c:242:12:_cl_tm_nth_open	32	static
+tm_nth.c:213:12:_cl_tm_nth_read	64	static
+tm_nth.c:454:13:tm_nth_set_cpu_power	16	static
+tm_nth.c:486:13:tm_nth_loop.part.1	64	static
+tm_nth.c:486:13:tm_nth_loop	16	static
+tm_nth.c:553:19:mtk_cooler_tm_nth_init	32	static
+tm_nth.c:123:16:_cl_tm_nth_write	800	static
+tm_nth.c:442:5:tm_nth_get_cpu_load_sum	16	static

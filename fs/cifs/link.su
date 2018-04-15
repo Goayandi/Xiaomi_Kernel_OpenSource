@@ -1,0 +1,9 @@
+link.c:57:1:symlink_hash	80	static
+link.c:102:1:parse_mf_symlink	224	static
+link.c:190:1:couldbe_mf_symlink	0	static
+link.c:271:1:check_mf_symlink	80	static
+link.c:325:1:cifs_query_mf_symlink	304	static
+link.c:369:1:cifs_create_mf_symlink	192	static
+link.c:540:1:cifs_hardlink	96	static
+link.c:630:1:cifs_follow_link	112	static
+link.c:687:1:cifs_symlink	240	static

@@ -1,0 +1,16 @@
+camera_sysram.c:1061:12:SYSRAM_Suspend	0	static
+camera_sysram.c:1068:12:SYSRAM_Resume	0	static
+camera_sysram.c:1248:20:SYSRAM_Exit	16	static
+camera_sysram.c:1046:12:SYSRAM_Remove	32	static
+camera_sysram.c:802:12:SYSRAM_mmap	64	static
+camera_sysram.c:995:12:SYSRAM_Probe	64	static
+camera_sysram.c:1175:16:SYSRAM_WriteFlag	96	static
+camera_sysram.c:1152:16:SYSRAM_ReadFlag	48	static
+camera_sysram.c:1087:16:SYSRAM_DumpLayoutToProc	160	static
+camera_sysram.c:615:12:SYSRAM_Open	64	static
+camera_sysram.c:525:16:SYSRAM_TryAllocUser	112	static
+camera_sysram.c:1208:19:SYSRAM_Init	32	static
+camera_sysram.c:596:13:SYSRAM_IOC_Free	64	static
+camera_sysram.c:661:12:SYSRAM_Release	48	static
+camera_sysram.c:721:12:SYSRAM_Flush	48	static
+camera_sysram.c:830:13:SYSRAM_Ioctl	208	static

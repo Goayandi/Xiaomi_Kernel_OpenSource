@@ -1,0 +1,4 @@
+server_dmabuf_bridge.c:136:1:PVRSRVBridgePhysmemImportDmaBuf	80	static
+server_dmabuf_bridge.c:74:1:PVRSRVBridgePhysmemExportDmaBuf	64	static
+server_dmabuf_bridge.c:211:14:InitDMABUFBridge	32	static
+server_dmabuf_bridge.c:227:14:DeinitDMABUFBridge	0	static

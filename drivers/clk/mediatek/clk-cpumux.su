@@ -1,0 +1,3 @@
+clk-cpumux.c:37:11:clk_cpumux_get_parent	48	static
+clk-cpumux.c:54:12:clk_cpumux_set_parent	16	static
+clk-cpumux.c:104:12:mtk_clk_register_cpumuxes	160	static

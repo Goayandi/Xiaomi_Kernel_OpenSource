@@ -1,0 +1,5 @@
+server_rgxkicksync_bridge.c:166:1:PVRSRVBridgeRGXDestroyKickSyncContext	32	static
+server_rgxkicksync_bridge.c:205:1:PVRSRVBridgeRGXKickSync	256	static
+server_rgxkicksync_bridge.c:73:1:PVRSRVBridgeRGXCreateKickSyncContext	64	static
+server_rgxkicksync_bridge.c:671:14:InitRGXKICKSYNCBridge	32	static
+server_rgxkicksync_bridge.c:690:14:DeinitRGXKICKSYNCBridge	0	static

@@ -1,0 +1,8 @@
+wl_roam.c:59:6:init_roam	0	static
+wl_roam.c:83:6:set_roam_band	0	static
+wl_roam.c:88:6:reset_roam_cache	0	static
+wl_roam.c:93:6:add_roam_cache	112	static
+wl_roam.c:139:5:get_roam_channel_list	128	static
+wl_roam.c:179:6:print_roam_cache	80	static
+wl_roam.c:210:6:update_roam_cache	480	static
+wl_roam.c:273:6:wl_update_roamscan_cache_by_band	432	static

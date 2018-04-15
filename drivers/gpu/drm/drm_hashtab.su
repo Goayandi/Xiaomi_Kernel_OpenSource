@@ -1,0 +1,8 @@
+drm_hashtab.c:41:5:drm_ht_create	32	static
+drm_hashtab.c:59:6:drm_ht_verbose_list	64	static
+drm_hashtab.c:109:5:drm_ht_insert_item	0	static
+drm_hashtab.c:140:5:drm_ht_just_insert_please	80	static
+drm_hashtab.c:165:5:drm_ht_find_item	0	static
+drm_hashtab.c:179:5:drm_ht_remove_key	0	static
+drm_hashtab.c:191:5:drm_ht_remove_item	0	static
+drm_hashtab.c:198:6:drm_ht_remove	32	static

@@ -1,0 +1,14 @@
+mt_afe_pcm_i2s0_awb.c:286:12:i2s0_awb_clock_get	0	static
+mt_afe_pcm_i2s0_awb.c:295:12:i2s0_awb_clock_set	0	static
+mt_afe_pcm_i2s0_awb.c:378:1:mt_pcm_i2s0_awb_driver_init	16	static
+mt_afe_pcm_i2s0_awb.c:354:12:mt_pcm_i2s0_awb_dev_remove	16	static
+mt_afe_pcm_i2s0_awb.c:268:26:mt_pcm_i2s0_awb_pointer	16	static
+mt_afe_pcm_i2s0_awb.c:214:12:mt_pcm_i2s0_awb_prepare	48	static
+mt_afe_pcm_i2s0_awb.c:208:12:mt_pcm_i2s0_awb_hw_free	16	static
+mt_afe_pcm_i2s0_awb.c:183:12:mt_pcm_i2s0_awb_hw_params	32	static
+mt_afe_pcm_i2s0_awb.c:159:12:mt_pcm_i2s0_awb_close	32	static
+mt_afe_pcm_i2s0_awb.c:127:12:mt_pcm_i2s0_awb_open	48	static
+mt_afe_pcm_i2s0_awb.c:314:12:mt_pcm_i2s0_awb_probe	16	static
+mt_afe_pcm_i2s0_awb.c:326:12:mt_pcm_i2s0_awb_dev_probe	32	static
+mt_afe_pcm_i2s0_awb.c:378:1:mt_pcm_i2s0_awb_driver_exit	16	static
+mt_afe_pcm_i2s0_awb.c:253:12:mt_pcm_i2s0_awb_trigger	48	static

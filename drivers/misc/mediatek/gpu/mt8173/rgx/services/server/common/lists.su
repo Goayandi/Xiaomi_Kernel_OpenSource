@@ -1,0 +1,9 @@
+lists.c:52:1:List_PVRSRV_DEVICE_NODE_Any	48	static
+lists.c:53:1:List_PVRSRV_DEVICE_NODE_IMG_BOOL_Any	48	static
+lists.c:54:1:List_PVRSRV_DEVICE_NODE_PVRSRV_ERROR_Any	48	static
+lists.c:55:1:List_PVRSRV_DEVICE_NODE_Any_va	160	static
+lists.c:56:1:List_PVRSRV_DEVICE_NODE_PVRSRV_ERROR_Any_va	160	static
+lists.c:57:1:List_PVRSRV_DEVICE_NODE_ForEach	48	static
+lists.c:58:1:List_PVRSRV_DEVICE_NODE_ForEach_va	160	static
+lists.c:59:1:List_PVRSRV_DEVICE_NODE_InsertTail	0	static
+lists.c:60:1:List_PVRSRV_DEVICE_NODE_Remove	0	static

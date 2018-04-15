@@ -1,0 +1,5 @@
+smi_debug.c:135:12:debug_open	0	static
+smi_debug.c:141:16:debug_read	64	static
+smi_debug.c:147:16:debug_write	144	static
+smi_debug.c:176:6:SMI_DBG_Init	16	static
+smi_debug.c:183:6:SMI_DBG_Deinit	16	static

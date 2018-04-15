@@ -1,0 +1,3 @@
+tfa9888_init.c:127:27:tfa9888_tfa_dsp_write_tables	48	static
+tfa9888_init.c:24:27:tfa9888_specific	64	static
+tfa9888_init.c:184:6:tfa9888_ops	0	static

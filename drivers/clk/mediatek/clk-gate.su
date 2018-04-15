@@ -1,0 +1,7 @@
+clk-gate.c:26:12:mtk_cg_bit_is_cleared	48	static
+clk-gate.c:38:12:mtk_cg_bit_is_set	48	static
+clk-gate.c:71:13:mtk_cg_disable	16	static
+clk-gate.c:76:12:mtk_cg_enable_inv	16	static
+clk-gate.c:64:12:mtk_cg_enable	16	static
+clk-gate.c:83:13:mtk_cg_disable_inv	16	static
+clk-gate.c:100:21:mtk_clk_register_gate	160	static

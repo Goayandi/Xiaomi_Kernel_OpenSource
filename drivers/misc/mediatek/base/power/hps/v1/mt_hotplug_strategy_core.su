@@ -1,0 +1,7 @@
+mt_hotplug_strategy_core.c:32:12:_hps_task_main	112	static
+mt_hotplug_strategy_core.c:72:5:hps_task_start	48	static
+mt_hotplug_strategy_core.c:95:6:hps_task_stop	32	static
+mt_hotplug_strategy_core.c:104:6:hps_task_wakeup_nolock	16	static
+mt_hotplug_strategy_core.c:112:6:hps_task_wakeup	32	static
+mt_hotplug_strategy_core.c:124:5:hps_core_init	32	static
+mt_hotplug_strategy_core.c:141:5:hps_core_deinit	32	static

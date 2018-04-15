@@ -1,0 +1,5 @@
+debugmisc_server.c:56:1:PVRSRVDebugMiscSLCSetBypassStateKM	176	static
+debugmisc_server.c:95:1:PVRSRVRGXDebugMiscSetFWLogKM	192	static
+debugmisc_server.c:154:1:PVRSRVRGXDebugMiscSetHCSDeadlineKM	16	static
+debugmisc_server.c:166:1:PVRSRVRGXDebugMiscSetOSidPriorityKM	16	static
+debugmisc_server.c:179:1:PVRSRVRGXDebugMiscDumpFreelistPageListKM	48	static

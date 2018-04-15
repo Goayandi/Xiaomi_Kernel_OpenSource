@@ -1,0 +1,11 @@
+ddr_info.c:365:21:ddr_reg_readA	0	static
+ddr_info.c:387:21:ddr_reg_readB	0	static
+ddr_info.c:159:16:ddr_add_show	48	static
+ddr_info.c:176:16:ddr_drv_info_show	64	static
+ddr_info.c:197:16:ddr_drv_show	80	static
+ddr_info.c:409:16:ddr_reg_show	0	static
+ddr_info.c:634:20:ddr_info_exit	16	static
+ddr_info.c:576:19:ddr_info_init	32	static
+ddr_info.c:54:6:tty_output	160	static
+ddr_info.c:229:16:ddr_drv_store	128	static
+ddr_info.c:423:16:ddr_reg_store	64	static

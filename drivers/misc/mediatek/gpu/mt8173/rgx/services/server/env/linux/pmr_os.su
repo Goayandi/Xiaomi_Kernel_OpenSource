@@ -1,0 +1,4 @@
+pmr_os.c:150:12:MMapVAccess	32	static
+pmr_os.c:120:13:MMapPMRClose	32	static
+pmr_os.c:93:13:MMapPMROpen	32	static
+pmr_os.c:199:1:OSMMapPMRGeneric	464	static

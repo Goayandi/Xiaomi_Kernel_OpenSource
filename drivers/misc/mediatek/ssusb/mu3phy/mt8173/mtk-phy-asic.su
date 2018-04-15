@@ -1,0 +1,8 @@
+mtk-phy-asic.c:753:6:usb_phy_savecurrent	48	static
+mtk-phy-asic.c:760:6:usb_phy_recover	32	static
+mtk-phy-asic.c:745:5:u2_slew_rate_calibration	48	static
+mtk-phy-asic.c:324:11:phy_port0_init	32	static
+mtk-phy-asic.c:737:5:phy_init_soc	32	static
+mtk-phy-asic.c:769:6:Charger_Detect_Init	16	static
+mtk-phy-asic.c:780:6:Charger_Detect_Release	16	static
+mtk-phy-asic.c:798:5:u3p_project_init	48	static

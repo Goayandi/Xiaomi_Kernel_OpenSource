@@ -1,0 +1,9 @@
+mfd-core.c:119:12:mfd_add_device	112	static
+mfd-core.c:270:12:mfd_remove_devices_fn	48	static
+mfd-core.c:302:13:devm_mfd_dev_release	32	static
+mfd-core.c:29:5:mfd_cell_enable	32	static
+mfd-core.c:46:5:mfd_cell_disable	32	static
+mfd-core.c:293:6:mfd_remove_devices	32	static
+mfd-core.c:237:5:mfd_add_devices	112	static
+mfd-core.c:314:5:devm_mfd_add_devices	80	static
+mfd-core.c:340:5:mfd_clone_cell	208	static

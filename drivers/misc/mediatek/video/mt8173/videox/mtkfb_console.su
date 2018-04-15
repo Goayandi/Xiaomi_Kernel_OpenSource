@@ -1,0 +1,12 @@
+mtkfb_console.c:73:13:_MFC_DrawChar	48	static
+mtkfb_console.c:128:13:_MFC_Newline	48	static
+mtkfb_console.c:158:13:_MFC_Putc	32	static
+mtkfb_console.c:62:10:MFC_Get_Cursor_Offset	0	static
+mtkfb_console.c:188:12:MFC_Open	80	static
+mtkfb_console.c:224:12:MFC_Open_Ex	80	static
+mtkfb_console.c:264:12:MFC_Close	16	static
+mtkfb_console.c:275:12:MFC_SetColor	64	static
+mtkfb_console.c:291:12:MFC_ResetCursor	48	static
+mtkfb_console.c:306:12:MFC_Print	64	static
+mtkfb_console.c:326:12:MFC_SetMem	64	static
+mtkfb_console.c:353:12:MFC_LowMemory_Printf	96	static

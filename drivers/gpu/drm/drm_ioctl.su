@@ -1,0 +1,13 @@
+drm_ioctl.c:283:12:drm_getcap	0	static
+drm_ioctl.c:269:12:drm_getstats	16	static
+drm_ioctl.c:168:12:drm_getmap	64	static
+drm_ioctl.c:229:12:drm_getclient	48	static
+drm_ioctl.c:57:12:drm_getunique	32	static
+drm_ioctl.c:436:12:drm_copy_field	48	static
+drm_ioctl.c:337:1:drm_setclientcap	0	static
+drm_ioctl.c:425:5:drm_noop	16	static
+drm_ioctl.c:96:12:drm_setunique	32	static
+drm_ioctl.c:381:12:drm_setversion	48	static
+drm_ioctl.c:467:12:drm_version	48	static
+drm_ioctl.c:657:6:drm_ioctl	256	static
+drm_ioctl.c:789:6:drm_ioctl_flags	0	static

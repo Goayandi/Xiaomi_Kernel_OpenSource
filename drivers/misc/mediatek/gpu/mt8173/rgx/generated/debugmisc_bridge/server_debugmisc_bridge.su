@@ -1,0 +1,8 @@
+server_debugmisc_bridge.c:209:1:PVRSRVBridgePhysmemImportSecBuf	80	static
+server_debugmisc_bridge.c:182:1:PVRSRVBridgeRGXDebugMiscSetOSidPriority	48	static
+server_debugmisc_bridge.c:156:1:PVRSRVBridgeRGXDebugMiscSetHCSDeadline	48	static
+server_debugmisc_bridge.c:129:1:PVRSRVBridgeRGXDebugMiscDumpFreelistPageList	32	static
+server_debugmisc_bridge.c:103:1:PVRSRVBridgeRGXDebugMiscSetFWLog	48	static
+server_debugmisc_bridge.c:76:1:PVRSRVBridgeDebugMiscSLCSetBypassState	48	static
+server_debugmisc_bridge.c:284:14:InitDEBUGMISCBridge	32	static
+server_debugmisc_bridge.c:312:14:DeinitDEBUGMISCBridge	0	static

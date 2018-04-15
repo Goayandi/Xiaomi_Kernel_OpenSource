@@ -1,0 +1,4 @@
+devicemem_heapcfg.c:56:1:HeapCfgHeapConfigCount	0	static
+devicemem_heapcfg.c:70:1:HeapCfgHeapCount	0	static
+devicemem_heapcfg.c:87:1:HeapCfgHeapConfigName	16	static
+devicemem_heapcfg.c:105:1:HeapCfgHeapDetails	48	static

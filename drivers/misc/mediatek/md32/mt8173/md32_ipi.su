@@ -1,0 +1,4 @@
+md32_ipi.c:44:6:md32_ipi_handler	16	static
+md32_ipi.c:53:6:md32_ipi_init	32	static
+md32_ipi.c:67:17:md32_ipi_registration	0	static
+md32_ipi.c:90:17:md32_ipi_send	96	static

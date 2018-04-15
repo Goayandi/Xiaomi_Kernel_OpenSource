@@ -1,0 +1,5 @@
+smi_variant_config_8127.c:233:13:mt8127_hdmi_setting	0	static
+smi_variant_config_8127.c:237:13:mt8127_hdmi4k_setting	0	static
+smi_variant_config_8127.c:114:13:mt8127_vp_setting	32	static
+smi_variant_config_8127.c:174:13:mt8127_vr_setting	32	static
+smi_variant_config_8127.c:36:13:mt8127_init_setting	48	static

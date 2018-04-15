@@ -1,0 +1,7 @@
+drm_info.c:221:12:drm_gem_one_name_info	16	static
+drm_info.c:47:5:drm_name_info	16	static
+drm_info.c:72:5:drm_vm_info	144	static
+drm_info.c:116:5:drm_bufs_info	96	static
+drm_info.c:158:5:drm_vblank_info	96	static
+drm_info.c:183:5:drm_clients_info	128	static
+drm_info.c:233:5:drm_gem_name_info	48	static

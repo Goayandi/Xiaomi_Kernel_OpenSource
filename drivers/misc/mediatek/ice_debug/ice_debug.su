@@ -1,0 +1,2 @@
+ice_debug.c:58:19:mtk_ice_debug_init	16	static
+ice_debug.c:30:12:mtk_ice_debug_probe	32	static

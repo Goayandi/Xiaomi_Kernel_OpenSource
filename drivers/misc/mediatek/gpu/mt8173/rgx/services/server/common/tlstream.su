@@ -1,0 +1,17 @@
+tlstream.c:466:1:DoTLStreamReserve.part.1	112	static
+tlstream.c:124:1:TLStreamCreate	192	static
+tlstream.c:300:1:TLStreamReconfigure	48	static
+tlstream.c:353:1:TLStreamOpen	32	static
+tlstream.c:662:1:TLStreamReserve	16	static
+tlstream.c:670:1:TLStreamReserve2	16	static
+tlstream.c:680:1:TLStreamCommit	48	static
+tlstream.c:763:1:TLStreamWrite	64	static
+tlstream.c:797:6:TLStreamInfo	48	static
+tlstream.c:812:1:TLStreamMarkEOS	48	static
+tlstream.c:834:1:TLStreamSync	16	static
+tlstream.c:865:1:TLStreamAcquireReadPos	64	static
+tlstream.c:922:1:TLStreamAdvanceReadPos	16	static
+tlstream.c:958:1:TLStreamDestroy	32	static
+tlstream.c:394:1:TLStreamClose	32	static
+tlstream.c:973:1:TLStreamGetBufferPointer	0	static
+tlstream.c:983:1:TLStreamEOS	0	static

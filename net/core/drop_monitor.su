@@ -1,0 +1,11 @@
+drop_monitor.c:280:12:net_dm_cmd_config	0	static
+drop_monitor.c:131:13:sched_send_work	16	static
+drop_monitor.c:299:12:dropmon_net_event	48	static
+drop_monitor.c:76:24:reset_per_cpu_data	48	static
+drop_monitor.c:357:19:init_net_drop_monitor	80	static
+drop_monitor.c:138:13:trace_drop_common.isra.6	96	static
+drop_monitor.c:190:13:trace_napi_poll_hit	64	static
+drop_monitor.c:185:13:trace_kfree_skb_hit	16	static
+drop_monitor.c:112:13:send_dm_alert	32	static
+drop_monitor.c:404:13:exit_net_drop_monitor	80	static
+drop_monitor.c:286:12:net_dm_cmd_trace	64	static

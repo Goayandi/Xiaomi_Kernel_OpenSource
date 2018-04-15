@@ -1,0 +1,8 @@
+netmisc.c:791:1:cifs_print_status	48	static
+netmisc.c:169:1:cifs_convert_address	80	static
+netmisc.c:208:1:cifs_set_port	0	static
+netmisc.c:828:1:map_smb_to_linux_error	32	static
+netmisc.c:906:1:smbCalcSize	0	static
+netmisc.c:922:1:cifs_NTtimeToUnix	0	static
+netmisc.c:952:1:cifs_UnixTimeToNT	0	static
+netmisc.c:962:17:cnvrtDosUnixTm	64	static

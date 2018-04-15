@@ -1,0 +1,13 @@
+ddp_wdma.c:56:14:wdma_get_status	0	static
+ddp_wdma.c:84:21:wdma_index.part.0	32	static
+ddp_wdma.c:112:12:wdma_stop	48	static
+ddp_wdma.c:102:12:wdma_start	48	static
+ddp_wdma.c:147:12:wdma_config_uv	64	static
+ddp_wdma.c:123:12:wdma_reset	80	static
+ddp_wdma.c:370:12:wdma_clock_off	32	static
+ddp_wdma.c:361:12:wdma_clock_on	32	static
+ddp_wdma.c:498:12:wdma_config_l	160	static
+ddp_wdma.c:379:6:wdma_dump_analysis	736	static
+ddp_wdma.c:418:6:wdma_dump_reg	544	static
+ddp_wdma.c:468:12:wdma_dump	32	static
+ddp_wdma.c:493:6:wdma_cmdq_insert_wait_frame_done_token_mira	16	static

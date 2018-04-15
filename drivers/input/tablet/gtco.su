@@ -1,0 +1,8 @@
+gtco.c:1038:1:gtco_driverinfo_table_init	16	static
+gtco.c:553:13:gtco_input_close	16	static
+gtco.c:1011:13:gtco_disconnect	32	static
+gtco.c:611:13:gtco_urb_callback	48	static
+gtco.c:539:12:gtco_input_open	16	static
+gtco.c:200:13:parse_hid_report_descriptor	160	static
+gtco.c:826:12:gtco_probe	112	static
+gtco.c:1038:1:gtco_driverinfo_table_exit	16	static

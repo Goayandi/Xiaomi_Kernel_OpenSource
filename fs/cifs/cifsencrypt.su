@@ -1,0 +1,9 @@
+cifsencrypt.c:72:12:cifs_calc_signature	96	static
+cifsencrypt.c:149:5:cifs_sign_rqst	64	static
+cifsencrypt.c:184:5:cifs_sign_smbv	64	static
+cifsencrypt.c:194:5:cifs_sign_smb	80	static
+cifsencrypt.c:206:5:cifs_verify_signature	80	static
+cifsencrypt.c:262:5:setup_ntlm_response	48	static
+cifsencrypt.c:674:1:setup_ntlmv2_rsp	128	static
+cifsencrypt.c:789:1:calc_seckey	160	static
+cifsencrypt.c:837:1:cifs_crypto_shash_release	32	static

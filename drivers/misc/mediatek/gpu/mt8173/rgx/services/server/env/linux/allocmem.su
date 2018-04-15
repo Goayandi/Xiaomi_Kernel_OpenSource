@@ -1,0 +1,6 @@
+allocmem.c:228:20:OSAllocMem	48	static
+allocmem.c:290:20:OSAllocZMem	48	static
+allocmem.c:352:19:OSFreeMem	32	static
+allocmem.c:386:20:OSAllocMemNoStats	32	static
+allocmem.c:402:20:OSAllocZMemNoStats	32	static
+allocmem.c:418:19:OSFreeMemNoStats	16	static

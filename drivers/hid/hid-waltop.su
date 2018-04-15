@@ -1,0 +1,4 @@
+hid-waltop.c:641:14:waltop_report_fixup	0	static
+hid-waltop.c:782:1:waltop_driver_init	16	static
+hid-waltop.c:782:1:waltop_driver_exit	16	static
+hid-waltop.c:691:12:waltop_raw_event	0	static
