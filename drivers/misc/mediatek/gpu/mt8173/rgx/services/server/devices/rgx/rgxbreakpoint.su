@@ -1,5 +1,0 @@
-rgxbreakpoint.c:54:14:PVRSRVRGXSetBreakpointKM	240	static
-rgxbreakpoint.c:110:14:PVRSRVRGXClearBreakpointKM	192	static
-rgxbreakpoint.c:157:14:PVRSRVRGXEnableBreakpointKM	208	static
-rgxbreakpoint.c:203:14:PVRSRVRGXDisableBreakpointKM	192	static
-rgxbreakpoint.c:249:14:PVRSRVRGXOverallocateBPRegistersKM	176	static

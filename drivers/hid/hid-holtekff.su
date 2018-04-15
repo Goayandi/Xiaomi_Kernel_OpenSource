@@ -1,3 +1,0 @@
-hid-holtekff.c:225:1:holtek_driver_init	16	static
-hid-holtekff.c:191:12:holtek_probe	32	static
-hid-holtekff.c:225:1:holtek_driver_exit	16	static

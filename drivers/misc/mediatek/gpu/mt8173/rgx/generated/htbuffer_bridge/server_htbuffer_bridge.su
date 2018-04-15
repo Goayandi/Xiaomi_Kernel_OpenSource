@@ -1,5 +1,0 @@
-server_htbuffer_bridge.c:184:1:PVRSRVBridgeHTBLog	48	static
-server_htbuffer_bridge.c:128:1:PVRSRVBridgeHTBControl	48	static
-server_htbuffer_bridge.c:75:1:PVRSRVBridgeHTBConfigure	48	static
-server_htbuffer_bridge.c:255:14:InitHTBUFFERBridge	48	static
-server_htbuffer_bridge.c:275:14:DeinitHTBUFFERBridge	16	static

@@ -1,4 +1,0 @@
-drm_scatter.c:50:13:drm_sg_cleanup	32	static
-drm_scatter.c:68:6:drm_legacy_sg_cleanup	32	static
-drm_scatter.c:82:5:drm_legacy_sg_alloc	96	static
-drm_scatter.c:198:5:drm_legacy_sg_free	32	static

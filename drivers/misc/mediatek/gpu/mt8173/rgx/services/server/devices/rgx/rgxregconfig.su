@@ -1,5 +1,0 @@
-rgxregconfig.c:52:14:PVRSRVRGXSetRegConfigTypeKM	16	static
-rgxregconfig.c:85:14:PVRSRVRGXAddRegConfigKM	16	static
-rgxregconfig.c:140:14:PVRSRVRGXClearRegConfigKM	16	static
-rgxregconfig.c:185:14:PVRSRVRGXEnableRegConfigKM	16	static
-rgxregconfig.c:222:14:PVRSRVRGXDisableRegConfigKM	16	static

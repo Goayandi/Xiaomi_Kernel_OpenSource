@@ -1,8 +1,0 @@
-bus.c:19:12:usb_serial_device_match	0	static
-bus.c:103:12:usb_serial_device_remove	64	static
-bus.c:41:16:port_number_show	16	static
-bus.c:50:12:usb_serial_device_probe	80	static
-bus.c:141:16:new_id_store	48	static
-bus.c:156:16:new_id_show	16	static
-bus.c:190:5:usb_serial_bus_register	16	static
-bus.c:203:6:usb_serial_bus_deregister	48	static

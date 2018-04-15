@@ -1,3 +1,0 @@
-DW9714AF.c:183:6:DW9714AF_Ioctl_Sub	64	static
-DW9714AF.c:218:5:DW9714AF_Release_Sub	48	static
-DW9714AF.c:240:6:DW9714AF_SetI2Cclient_Sub	0	static

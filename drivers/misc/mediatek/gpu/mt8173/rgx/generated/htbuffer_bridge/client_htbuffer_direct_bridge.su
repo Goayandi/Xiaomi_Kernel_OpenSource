@@ -1,3 +1,0 @@
-client_htbuffer_direct_bridge.c:52:40:BridgeHTBConfigure	16	static
-client_htbuffer_direct_bridge.c:70:40:BridgeHTBControl	16	static
-client_htbuffer_direct_bridge.c:94:40:BridgeHTBLog	16	static

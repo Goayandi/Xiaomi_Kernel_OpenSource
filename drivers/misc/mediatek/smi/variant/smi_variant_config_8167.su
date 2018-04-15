@@ -1,6 +1,0 @@
-smi_variant_config_8167.c:119:13:mt8167_vp_setting	0	static
-smi_variant_config_8167.c:152:13:mt8167_vpwfd_setting	0	static
-smi_variant_config_8167.c:177:13:mt8167_vr_setting	0	static
-smi_variant_config_8167.c:209:13:mt8167_hdmi_setting	0	static
-smi_variant_config_8167.c:213:13:mt8167_hdmi4k_setting	0	static
-smi_variant_config_8167.c:51:13:mt8167_init_setting	48	static

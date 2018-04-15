@@ -1,5 +1,0 @@
-client_pvrtl_direct_bridge.c:53:40:BridgeTLOpenStream	64	static
-client_pvrtl_direct_bridge.c:77:40:BridgeTLCloseStream	16	static
-client_pvrtl_direct_bridge.c:93:40:BridgeTLDiscoverStreams	16	static
-client_pvrtl_direct_bridge.c:113:40:BridgeTLAcquireData	16	static
-client_pvrtl_direct_bridge.c:133:40:BridgeTLReleaseData	16	static

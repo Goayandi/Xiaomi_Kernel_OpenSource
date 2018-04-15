@@ -1,4 +1,0 @@
-tfa9897_init.c:106:27:tfa9897_tfa_dsp_write_tables	48	static
-tfa9897_init.c:23:27:tfa9897_specific	48	static
-tfa9897_init.c:95:20:tfa9897_dsp_write_cvfracdelay_table	16	static
-tfa9897_init.c:126:6:tfa9897_ops	0	static

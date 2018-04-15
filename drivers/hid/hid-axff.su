@@ -1,5 +1,0 @@
-hid-axff.c:194:1:ax_driver_init	16	static
-hid-axff.c:175:13:ax_remove	32	static
-hid-axff.c:43:12:axff_play	64	static
-hid-axff.c:194:1:ax_driver_exit	16	static
-hid-axff.c:132:12:ax_probe	48	static

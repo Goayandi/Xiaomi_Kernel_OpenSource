@@ -1,4 +1,0 @@
-hid-emsff.c:151:1:ems_driver_init	16	static
-hid-emsff.c:34:12:emsff_play	64	static
-hid-emsff.c:112:12:ems_probe	48	static
-hid-emsff.c:151:1:ems_driver_exit	16	static

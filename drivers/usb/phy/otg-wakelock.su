@@ -1,4 +1,0 @@
-otg-wakelock.c:80:13:otgwl_handle_event	48	static
-otg-wakelock.c:118:12:set_enabled	32	static
-otg-wakelock.c:111:12:otgwl_otg_notifications	16	static
-otg-wakelock.c:139:19:otg_wakelock_init	48	static

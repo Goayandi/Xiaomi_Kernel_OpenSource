@@ -1,3 +1,0 @@
-hid-lg3ff.c:99:13:hid_lg3ff_set_autocenter	16	static
-hid-lg3ff.c:60:12:hid_lg3ff_play	48	static
-hid-lg3ff.c:130:5:lg3ff_init	64	static

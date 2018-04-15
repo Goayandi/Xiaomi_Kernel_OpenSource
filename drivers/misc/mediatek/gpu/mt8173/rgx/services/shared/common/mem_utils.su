@@ -1,2 +1,0 @@
-mem_utils.c:101:17:PVRSRVDeviceMemCopy	48	static
-mem_utils.c:195:17:PVRSRVDeviceMemSet	48	static

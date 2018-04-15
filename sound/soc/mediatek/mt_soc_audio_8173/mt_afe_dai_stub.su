@@ -1,4 +1,0 @@
-mt_afe_dai_stub.c:212:1:mt_dai_stub_driver_init	16	static
-mt_afe_dai_stub.c:188:12:mt_dai_stub_dev_remove	16	static
-mt_afe_dai_stub.c:171:12:mt_dai_stub_dev_probe	32	static
-mt_afe_dai_stub.c:212:1:mt_dai_stub_driver_exit	16	static

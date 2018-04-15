@@ -1,8 +1,0 @@
-gup.c:867:12:gup_pmd_range	16	static
-gup.c:154:14:follow_page_mask	112	static
-gup.c:478:6:__get_user_pages.part.24	176	static
-gup.c:478:6:__get_user_pages	16	static
-gup.c:610:5:fixup_user_fault	48	static
-gup.c:659:14:get_dump_page	32	static
-gup.c:929:5:__get_user_pages_fast	96	static
-gup.c:989:5:get_user_pages_fast	96	static

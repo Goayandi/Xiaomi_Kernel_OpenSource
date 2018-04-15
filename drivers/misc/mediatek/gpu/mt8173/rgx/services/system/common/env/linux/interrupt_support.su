@@ -1,3 +1,0 @@
-interrupt_support.c:55:20:SystemISRWrapper	16	static
-interrupt_support.c:76:14:OSInstallSystemLISR	80	static
-interrupt_support.c:137:14:OSUninstallSystemLISR	32	static

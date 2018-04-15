@@ -1,4 +1,0 @@
-rgxlayer_impl.c:62:6:RGXMemCopy	16	static
-rgxlayer_impl.c:71:6:RGXMemSet	16	static
-rgxlayer_impl.c:80:6:RGXCommentLogInit	48	static
-rgxlayer_impl.c:105:6:RGXErrorLogInit	640	static

@@ -1,7 +1,0 @@
-gcpu.c:86:12:gcpu_probe	0	static
-gcpu.c:93:12:gcpu_remove	0	static
-gcpu.c:164:20:gcpu_exit	0	static
-gcpu.c:52:12:gcpu_tee_call	80	static
-gcpu.c:147:19:gcpu_init	32	static
-gcpu.c:115:12:gcpu_resume	16	static
-gcpu.c:100:12:gcpu_suspend	16	static

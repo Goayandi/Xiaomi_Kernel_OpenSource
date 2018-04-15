@@ -1,6 +1,0 @@
-keyreset.c:120:5:keyreset_remove	16	static
-keyreset.c:33:13:do_restart	16	static
-keyreset.c:53:12:keyreset_probe	96	static
-keyreset.c:139:20:keyreset_exit	16	static
-keyreset.c:134:19:keyreset_init	16	static
-keyreset.c:39:13:do_reset_fn	32	static

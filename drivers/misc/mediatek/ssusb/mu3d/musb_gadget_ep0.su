@@ -1,9 +1,0 @@
-musb_gadget_ep0.c:1176:12:musb_g_ep0_enable	0	static
-musb_gadget_ep0.c:1182:12:musb_g_ep0_disable	0	static
-musb_gadget_ep0.c:1273:12:musb_g_ep0_dequeue	0	static
-musb_gadget_ep0.c:238:13:musb_g_ep0_giveback	32	static
-musb_gadget_ep0.c:80:1:forward_to_driver	48	static
-musb_gadget_ep0.c:1279:12:musb_g_ep0_halt	64	static
-musb_gadget_ep0.c:661:13:ep0_txstate	64	static
-musb_gadget_ep0.c:1188:12:musb_g_ep0_queue	64	static
-musb_gadget_ep0.c:814:13:musb_g_ep0_irq	128	static

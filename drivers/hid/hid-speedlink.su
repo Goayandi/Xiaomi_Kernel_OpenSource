@@ -1,4 +1,0 @@
-hid-speedlink.c:27:12:speedlink_input_mapping	0	static
-hid-speedlink.c:45:12:speedlink_event	0	static
-hid-speedlink.c:79:1:speedlink_driver_init	16	static
-hid-speedlink.c:79:1:speedlink_driver_exit	16	static

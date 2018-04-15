@@ -1,6 +1,0 @@
-generic_bl.c:27:12:genericbl_send_intensity	32	static
-generic_bl.c:50:12:genericbl_get_intensity	0	static
-generic_bl.c:115:1:genericbl_driver_init	16	static
-generic_bl.c:95:12:genericbl_remove	48	static
-generic_bl.c:61:12:genericbl_probe	96	static
-generic_bl.c:115:1:genericbl_driver_exit	16	static

@@ -1,2 +1,0 @@
-dhd_linux_sched.c:33:5:setScheduler	16	static
-dhd_linux_sched.c:42:5:get_scheduler_policy	0	static

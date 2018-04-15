@@ -1,6 +1,0 @@
-ddp_met.c:157:6:ddp_eof_irq_met_tag.part.0	32	static
-ddp_met.c:61:6:ddp_sof_irq_met_tag	192	static
-ddp_met.c:157:6:ddp_eof_irq_met_tag	96	static
-ddp_met.c:184:13:met_irq_handler	80	static
-ddp_met.c:178:6:ddp_err_irq_met_tag	0	static
-ddp_met.c:272:6:ddp_init_met_tag	48	static

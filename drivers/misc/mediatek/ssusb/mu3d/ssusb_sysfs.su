@@ -1,8 +1,0 @@
-ssusb_sysfs.c:61:9:musb_cmode_store	64	static
-ssusb_sysfs.c:118:9:musb_mode_store	96	static
-ssusb_sysfs.c:155:16:ssusb_reg_show	16	static
-ssusb_sysfs.c:102:16:musb_mode_show	48	static
-ssusb_sysfs.c:52:9:musb_cmode_show	32	static
-ssusb_sysfs.c:301:1:ssusb_reg_store	96	static
-ssusb_sysfs.c:343:5:ssusb_sysfs_init	16	static
-ssusb_sysfs.c:348:6:ssusb_sysfs_exit	16	static

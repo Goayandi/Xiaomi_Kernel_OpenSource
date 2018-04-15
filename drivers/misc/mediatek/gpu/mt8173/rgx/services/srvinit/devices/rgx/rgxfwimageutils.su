@@ -1,3 +1,0 @@
-rgxfwimageutils.c:108:21:FindMMUSegment	0	static
-rgxfwimageutils.c:710:6:RGXGetFWImageAllocSize	0	static
-rgxfwimageutils.c:741:14:RGXProcessFWImage	144	static

@@ -1,5 +1,0 @@
-server_cmm_bridge.c:242:1:PVRSRVBridgeDevmemIntAcquireRemoteCtx	80	static
-server_cmm_bridge.c:203:1:PVRSRVBridgeDevmemIntUnexportCtx	32	static
-server_cmm_bridge.c:75:1:PVRSRVBridgeDevmemIntExportCtx	80	static
-server_cmm_bridge.c:386:14:InitCMMBridge	32	static
-server_cmm_bridge.c:405:14:DeinitCMMBridge	0	static

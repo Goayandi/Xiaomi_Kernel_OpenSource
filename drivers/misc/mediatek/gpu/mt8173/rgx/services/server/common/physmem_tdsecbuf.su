@@ -1,2 +1,0 @@
-physmem_tdsecbuf.c:539:14:PhysmemNewTDSecureBufPMR	0	static
-physmem_tdsecbuf.c:560:14:PhysmemImportSecBuf	0	static

@@ -1,9 +1,0 @@
-drv_base.c:36:13:search_HWLockSlot_ByTID	0	static
-drv_base.c:57:13:search_HWLockSlot_ByHandle	16	static
-drv_base.c:73:30:setCurr_HWLockSlot	32	static
-drv_base.c:114:30:setCurr_HWLockSlot_Thread_ID	80	static
-drv_base.c:187:30:freeCurr_HWLockSlot	16	static
-drv_base.c:212:6:Add_NonCacheMemoryList	16	static
-drv_base.c:251:6:Free_NonCacheMemoryList	16	static
-drv_base.c:282:6:Force_Free_NonCacheMemoryList	112	static
-drv_base.c:322:14:Search_NonCacheMemoryList_By_KPA	32	static

@@ -1,4 +1,0 @@
-hid-sjoy.c:181:1:sjoy_driver_init	16	static
-hid-sjoy.c:41:12:hid_sjoyff_play	16	static
-hid-sjoy.c:130:12:sjoy_probe	112	static
-hid-sjoy.c:181:1:sjoy_driver_exit	16	static

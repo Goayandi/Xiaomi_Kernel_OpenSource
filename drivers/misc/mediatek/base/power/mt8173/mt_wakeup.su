@@ -1,8 +1,0 @@
-mt_wakeup.c:218:12:wakeup_event_suspend	32	static
-mt_wakeup.c:204:12:wakeup_events_stats_open	16	static
-mt_wakeup.c:192:12:wakeup_events_stats_show	80	static
-mt_wakeup.c:269:19:mt_wakeup_event_debugfs_init	32	static
-mt_wakeup.c:37:23:irq_to_wakeup_ev	0	static
-mt_wakeup.c:64:6:pm_report_resume_ev	48	static
-mt_wakeup.c:128:6:pm_report_resume_irq	32	static
-mt_wakeup.c:147:16:pm_get_resume_ev	0	static

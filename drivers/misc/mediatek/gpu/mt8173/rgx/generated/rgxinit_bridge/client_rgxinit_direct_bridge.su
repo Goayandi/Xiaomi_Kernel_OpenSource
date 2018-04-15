@@ -1,6 +1,0 @@
-client_rgxinit_direct_bridge.c:56:40:BridgeRGXInitAllocFWImgMem	96	static
-client_rgxinit_direct_bridge.c:94:40:BridgeRGXInitFirmware	128	static
-client_rgxinit_direct_bridge.c:142:40:BridgeRGXInitFinaliseFWImage	16	static
-client_rgxinit_direct_bridge.c:153:40:BridgeRGXInitDevPart2	48	static
-client_rgxinit_direct_bridge.c:191:40:BridgeGPUVIRTPopulateLMASubArenas	16	static
-client_rgxinit_direct_bridge.c:209:40:BridgeRGXInitGuest	16	static

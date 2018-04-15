@@ -1,3 +1,0 @@
-mt_cpufreq_tlp.c:679:19:_mt_cpufreq_tlp_init	0	static
-mt_cpufreq_tlp.c:690:20:_mt_cpufreq_tlp_exit	0	static
-mt_cpufreq_tlp.c:671:31:get_cpu_tlp_power_tbl	0	static

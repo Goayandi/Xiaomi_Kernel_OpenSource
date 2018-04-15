@@ -1,9 +1,0 @@
-ddp_ufoe.c:52:5:ufoe_start	32	static
-ddp_ufoe.c:62:5:ufoe_stop	32	static
-ddp_ufoe.c:26:12:ufoe_dump	32	static
-ddp_ufoe.c:137:12:ufoe_reset	32	static
-ddp_ufoe.c:130:12:ufoe_clock_off	16	static
-ddp_ufoe.c:122:12:ufoe_clock_on	16	static
-ddp_ufoe.c:45:12:ufoe_deinit	16	static
-ddp_ufoe.c:38:12:ufoe_init	16	static
-ddp_ufoe.c:69:12:ufoe_config	64	static

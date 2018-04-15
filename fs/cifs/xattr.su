@@ -1,4 +1,0 @@
-xattr.c:40:5:cifs_removexattr	0	static
-xattr.c:100:5:cifs_setxattr	0	static
-xattr.c:235:9:cifs_getxattr	0	static
-xattr.c:372:9:cifs_listxattr	0	static

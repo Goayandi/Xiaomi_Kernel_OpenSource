@@ -1,7 +1,0 @@
-tps65132.c:67:12:dbg_reg_open	0	static
-tps65132.c:150:20:tps65132_i2c_exit	16	static
-tps65132.c:113:12:tps65132_remove	32	static
-tps65132.c:99:12:tps65132_probe	32	static
-tps65132.c:142:19:tps65132_i2c_init	16	static
-tps65132.c:73:16:dbg_reg_write	48	static
-tps65132.c:121:5:tps65132_write_bytes	48	static

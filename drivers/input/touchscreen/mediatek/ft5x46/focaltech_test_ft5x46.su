@@ -1,6 +1,0 @@
-focaltech_test_ft5x46.c:323:22:GetChannelNum	32	static
-focaltech_test_ft5x46.c:220:12:StartScan	48	static
-focaltech_test_ft5x46.c:355:22:GetRawData	112	static
-focaltech_test_ft5x46.c:54:6:set_max_channel_num	0	static
-focaltech_test_ft5x46.c:65:15:FT5X46_TestItem_RawDataTest	128	static
-focaltech_test_ft5x46.c:422:15:FT5X46_TestItem_WeakShortTest	208	static

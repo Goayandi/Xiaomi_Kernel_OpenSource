@@ -1,4 +1,0 @@
-rl6231.c:29:5:rl6231_get_pre_div	48	static
-rl6231.c:73:5:rl6231_calc_dmic_clk	48	static
-rl6231.c:119:5:rl6231_pll_calc	80	static
-rl6231.c:190:5:rl6231_get_clk_info	32	static

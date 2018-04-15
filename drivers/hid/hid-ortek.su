@@ -1,3 +1,0 @@
-hid-ortek.c:53:1:ortek_driver_init	16	static
-hid-ortek.c:53:1:ortek_driver_exit	16	static
-hid-ortek.c:27:14:ortek_report_fixup	32	static

@@ -1,9 +1,0 @@
-wl_linux_mon.c:267:12:dhd_mon_if_change_mac	16	static
-wl_linux_mon.c:254:13:dhd_mon_if_set_multicast_list	16	static
-wl_linux_mon.c:166:12:dhd_mon_if_stop	16	static
-wl_linux_mon.c:158:12:dhd_mon_if_open	16	static
-wl_linux_mon.c:174:12:dhd_mon_if_subif_start_xmit	80	static
-wl_linux_mon.c:286:5:dhd_add_monitor	112	static
-wl_linux_mon.c:355:5:dhd_del_monitor	48	static
-wl_linux_mon.c:384:5:dhd_monitor_init	32	static
-wl_linux_mon.c:394:5:dhd_monitor_uninit	48	static

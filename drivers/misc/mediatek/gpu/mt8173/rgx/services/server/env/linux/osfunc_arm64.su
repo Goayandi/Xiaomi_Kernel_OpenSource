@@ -1,7 +1,0 @@
-osfunc_arm64.c:63:13:per_cpu_cache_flush	0	static
-osfunc_arm64.c:143:14:OSCPUOperation	16	static
-osfunc_arm64.c:170:6:OSFlushCPUCacheRangeKM	48	static
-osfunc_arm64.c:185:6:OSCleanCPUCacheRangeKM	16	static
-osfunc_arm64.c:199:6:OSInvalidateCPUCacheRangeKM	16	static
-osfunc_arm64.c:213:27:OSCPUCacheOpAddressType	0	static
-osfunc_arm64.c:219:6:OSUserModeAccessToPerfCountersEn	0	static

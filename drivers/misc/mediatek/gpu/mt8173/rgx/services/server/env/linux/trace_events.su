@@ -1,5 +1,0 @@
-trace_events.c:54:6:trace_rogue_fence_updates	128	static
-trace_events.c:68:6:trace_rogue_fence_checks	128	static
-trace_events.c:84:6:trace_rogue_ufo_updates	112	static
-trace_events.c:103:6:trace_rogue_ufo_checks_success	112	static
-trace_events.c:130:6:trace_rogue_ufo_checks_fail	128	static

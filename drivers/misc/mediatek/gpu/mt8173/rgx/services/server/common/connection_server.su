@@ -1,5 +1,0 @@
-connection_server.c:59:21:ConnectionDataDestroy	48	static
-connection_server.c:317:21:_CleanupThreadPurgeConnectionData	48	static
-connection_server.c:181:14:PVRSRVConnectionConnect	80	static
-connection_server.c:360:6:PVRSRVConnectionDisconnect	16	static
-connection_server.c:381:9:PVRSRVGetPurgeConnectionPid	0	static

@@ -1,3 +1,0 @@
-uniq_key_splay_tree.c:57:17:PVRSRVSplay	352	static
-uniq_key_splay_tree.c:154:17:PVRSRVInsert	48	static
-uniq_key_splay_tree.c:214:17:PVRSRVDelete	32	static

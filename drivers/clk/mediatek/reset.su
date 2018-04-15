@@ -1,4 +1,0 @@
-reset.c:39:12:mtk_reset_deassert	16	static
-reset.c:30:12:mtk_reset_assert	16	static
-reset.c:48:12:mtk_reset	48	static
-reset.c:66:6:mtk_register_reset_controller	64	static

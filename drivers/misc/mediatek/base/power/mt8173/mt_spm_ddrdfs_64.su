@@ -1,8 +1,0 @@
-mt_spm_ddrdfs_64.c:29:28:spm_mcdi_switch_on_off	0	static
-mt_spm_ddrdfs_64.c:163:6:patch_fw_for_mempll_setting	64	static
-mt_spm_ddrdfs_64.c:192:6:kick_pcm_to_run	16	static
-mt_spm_ddrdfs_64.c:210:6:spm_ensure_lte_pause_interval	32	static
-mt_spm_ddrdfs_64.c:234:5:pause_lte_wait_pcm_return	32	static
-mt_spm_ddrdfs_64.c:247:5:wait_pcm_complete_ddrdfs	80	static
-mt_spm_ddrdfs_64.c:314:6:clean_after_wakeup	16	static
-mt_spm_ddrdfs_64.c:345:5:spm_go_to_ddrdfs	80	static

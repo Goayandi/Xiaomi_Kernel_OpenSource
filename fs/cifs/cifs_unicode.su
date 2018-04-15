@@ -1,7 +1,0 @@
-cifs_unicode.c:167:1:cifs_mapchar.isra.2	32	static
-cifs_unicode.c:41:1:cifs_utf16_bytes	64	static
-cifs_unicode.c:65:5:cifs_remap	0	static
-cifs_unicode.c:210:1:cifs_from_utf16	128	static
-cifs_unicode.c:262:1:cifs_strtoUTF16	96	static
-cifs_unicode.c:320:1:cifs_strndup_from_utf16	96	static
-cifs_unicode.c:428:1:cifsConvertToUTF16	96	static

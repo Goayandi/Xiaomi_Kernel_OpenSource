@@ -1,7 +1,0 @@
-hid-roccat-common.c:24:5:roccat_common2_receive	80	static
-hid-roccat-common.c:75:12:roccat_common2_receive_control_status	48	static
-hid-roccat-common.c:46:5:roccat_common2_send	64	static
-hid-roccat-common.c:110:5:roccat_common2_send_with_status	64	static
-hid-roccat-common.c:125:5:roccat_common2_device_init_struct	16	static
-hid-roccat-common.c:133:9:roccat_common2_sysfs_read	64	static
-hid-roccat-common.c:157:9:roccat_common2_sysfs_write	96	static

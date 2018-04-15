@@ -1,4 +1,0 @@
-irq-mtk-sysirq.c:73:12:mtk_sysirq_domain_xlate	0	static
-irq-mtk-sysirq.c:91:12:mtk_sysirq_domain_alloc	144	static
-irq-mtk-sysirq.c:33:12:mtk_sysirq_set_type	80	static
-irq-mtk-sysirq.c:122:19:mtk_sysirq_of_init	48	static

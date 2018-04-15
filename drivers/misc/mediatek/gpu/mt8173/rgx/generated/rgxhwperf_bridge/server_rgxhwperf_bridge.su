@@ -1,6 +1,0 @@
-server_rgxhwperf_bridge.c:204:1:PVRSRVBridgeRGXConfigCustomCounters	48	static
-server_rgxhwperf_bridge.c:152:1:PVRSRVBridgeRGXCtrlHWPerfCounters	48	static
-server_rgxhwperf_bridge.c:101:1:PVRSRVBridgeRGXConfigEnableHWPerfCounters	64	static
-server_rgxhwperf_bridge.c:73:1:PVRSRVBridgeRGXCtrlHWPerf	48	static
-server_rgxhwperf_bridge.c:269:14:InitRGXHWPERFBridge	32	static
-server_rgxhwperf_bridge.c:291:14:DeinitRGXHWPERFBridge	0	static

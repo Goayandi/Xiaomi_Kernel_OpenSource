@@ -1,7 +1,0 @@
-bt-power.c:112:12:bluetooth_toggle_radio	32	static
-bt-power.c:293:20:bluetooth_power_exit	16	static
-bt-power.c:263:12:bt_power_remove	32	static
-bt-power.c:132:16:enable_extldo	0	static
-bt-power.c:284:19:bluetooth_power_init	16	static
-bt-power.c:214:12:bt_power_probe	64	static
-bt-power.c:89:12:bluetooth_power	64	static

@@ -1,4 +1,0 @@
-rgxtdmtransfer.c:107:14:PVRSRVRGXTDMCreateTransferContextKM	0	static
-rgxtdmtransfer.c:131:14:PVRSRVRGXTDMDestroyTransferContextKM	0	static
-rgxtdmtransfer.c:144:14:PVRSRVRGXTDMSubmitTransferKM	0	static
-rgxtdmtransfer.c:198:14:PVRSRVRGXTDMSetTransferContextPriorityKM	0	static

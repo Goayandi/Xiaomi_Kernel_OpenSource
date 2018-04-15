@@ -1,9 +1,0 @@
-ddp_od.c:1303:12:od_clock_off	16	static
-ddp_od.c:1296:12:od_clock_on	16	static
-ddp_od.c:1268:12:od_config_od	64	static
-ddp_od.c:830:14:_od_read_table.constprop	112	static
-ddp_od.c:748:13:_od_write_table.constprop	0	static
-ddp_od.c:899:13:_od_set_table.constprop	32	static
-ddp_od.c:1138:5:disp_od_ioctl	1248	static
-ddp_od.c:1027:6:disp_config_od	144	static
-ddp_od.c:1254:5:disp_od_is_enabled	0	static

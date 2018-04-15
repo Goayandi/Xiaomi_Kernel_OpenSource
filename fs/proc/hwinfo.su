@@ -1,7 +1,0 @@
-hwinfo.c:214:12:hwinfo_proc_open	16	static
-hwinfo.c:233:12:cpumaxfreq_open	16	static
-hwinfo.c:25:12:hwinfo_proc_show	32	static
-hwinfo.c:226:12:cpumaxfreq_show	16	static
-hwinfo.c:245:19:proc_hwinfo_init	32	static
-hwinfo.c:127:6:update_hardware_info	0	static
-hwinfo.c:159:14:get_hardware_info	0	static

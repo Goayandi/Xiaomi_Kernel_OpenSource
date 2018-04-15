@@ -1,6 +1,0 @@
-server_timerquery_bridge.c:154:1:PVRSRVBridgeRGXCurrentTime	48	static
-server_timerquery_bridge.c:126:1:PVRSRVBridgeRGXQueryTimer	48	static
-server_timerquery_bridge.c:99:1:PVRSRVBridgeRGXEndTimerQuery	32	static
-server_timerquery_bridge.c:73:1:PVRSRVBridgeRGXBeginTimerQuery	48	static
-server_timerquery_bridge.c:194:14:InitTIMERQUERYBridge	32	static
-server_timerquery_bridge.c:216:14:DeinitTIMERQUERYBridge	0	static

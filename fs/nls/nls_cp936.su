@@ -1,4 +1,0 @@
-nls_cp936.c:11000:12:uni2char	0	static
-nls_cp936.c:11102:20:exit_nls_cp936	16	static
-nls_cp936.c:11097:19:init_nls_cp936	16	static
-nls_cp936.c:11049:12:char2uni	0	static

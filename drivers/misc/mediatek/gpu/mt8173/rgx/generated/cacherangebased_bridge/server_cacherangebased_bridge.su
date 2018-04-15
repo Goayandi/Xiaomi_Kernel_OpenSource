@@ -1,7 +1,0 @@
-server_cacherangebased_bridge.c:410:1:PVRSRVBridgeCacheOpGetLineSize	32	static
-server_cacherangebased_bridge.c:344:1:PVRSRVBridgeCacheOpLog	64	static
-server_cacherangebased_bridge.c:317:1:PVRSRVBridgeCacheOpSetTimeline	32	static
-server_cacherangebased_bridge.c:253:1:PVRSRVBridgeCacheOpExec	64	static
-server_cacherangebased_bridge.c:73:1:PVRSRVBridgeCacheOpQueue	96	static
-server_cacherangebased_bridge.c:451:14:InitCACHERANGEBASEDBridge	32	static
-server_cacherangebased_bridge.c:476:14:DeinitCACHERANGEBASEDBridge	0	static

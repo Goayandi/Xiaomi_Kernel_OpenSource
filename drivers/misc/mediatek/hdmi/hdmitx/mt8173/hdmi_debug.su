@@ -1,3 +1,0 @@
-hdmi_debug.c:132:6:mt_hdmi_show_edid_info	64	static
-hdmi_debug.c:425:6:hdmistatuslog	48	static
-hdmi_debug.c:481:6:mt_hdmi_show_info	80	static

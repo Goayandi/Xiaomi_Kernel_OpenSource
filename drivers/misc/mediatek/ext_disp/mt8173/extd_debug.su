@@ -1,6 +1,0 @@
-extd_debug.c:231:12:debug_open	0	static
-extd_debug.c:240:16:debug_read	64	static
-extd_debug.c:251:16:debug_write	112	static
-extd_debug.c:40:5:hdmi_get_frc_log_level	0	static
-extd_debug.c:278:6:HDMI_DBG_Init	16	static
-extd_debug.c:284:6:HDMI_DBG_Deinit	16	static

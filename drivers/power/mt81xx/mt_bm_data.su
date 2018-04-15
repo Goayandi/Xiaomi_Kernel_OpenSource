@@ -1,3 +1,0 @@
-mt_bm_data.c:2563:6:p1v1_custom_battery_init	0	static
-mt_bm_data.c:2618:6:ariel8_custom_battery_init	0	static
-mt_bm_data.c:2680:5:mt_bm_of_probe	48	static

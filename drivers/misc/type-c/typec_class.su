@@ -1,6 +1,0 @@
-typec_class.c:41:16:status_store	48	static
-typec_class.c:32:16:status_show	32	static
-typec_class.c:124:20:typec_exit	16	static
-typec_class.c:119:19:typec_init	48	static
-typec_class.c:73:5:typec_dev_register	48	static
-typec_class.c:110:6:typec_dev_unregister	32	static

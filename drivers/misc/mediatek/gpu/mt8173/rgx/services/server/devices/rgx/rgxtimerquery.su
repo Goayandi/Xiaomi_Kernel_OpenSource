@@ -1,6 +1,0 @@
-rgxtimerquery.c:51:1:PVRSRVRGXBeginTimerQueryKM	0	static
-rgxtimerquery.c:79:1:PVRSRVRGXEndTimerQueryKM	0	static
-rgxtimerquery.c:97:1:PVRSRVRGXQueryTimerKM	0	static
-rgxtimerquery.c:136:1:PVRSRVRGXCurrentTime	32	static
-rgxtimerquery.c:155:1:RGXWriteTimestampCommand	0	static
-rgxtimerquery.c:178:1:RGX_GetTimestampCmdHelper	48	static

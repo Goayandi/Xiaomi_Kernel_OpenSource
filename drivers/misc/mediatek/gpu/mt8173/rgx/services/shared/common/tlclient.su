@@ -1,5 +1,0 @@
-tlclient.c:101:14:TLClientOpenStream	112	static
-tlclient.c:190:14:TLClientCloseStream	32	static
-tlclient.c:237:14:TLClientDiscoverStreams	16	static
-tlclient.c:254:14:TLClientAcquireData	48	static
-tlclient.c:309:14:TLClientReleaseData	32	static

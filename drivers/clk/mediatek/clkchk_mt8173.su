@@ -1,3 +1,0 @@
-clkchk_mt8173.c:103:13:clkchk_syscore_resume	0	static
-clkchk_mt8173.c:112:19:clkchk_init	16	static
-clkchk_mt8173.c:96:12:clkchk_syscore_suspend	48	static

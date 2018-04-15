@@ -1,6 +1,0 @@
-gpio_event.c:224:1:gpio_event_driver_init	16	static
-gpio_event.c:59:12:gpio_event_call_all_func	64	static
-gpio_event.c:202:12:gpio_event_remove	32	static
-gpio_event.c:29:12:gpio_input_event	80	static
-gpio_event.c:116:12:gpio_event_probe	64	static
-gpio_event.c:224:1:gpio_event_driver_exit	16	static

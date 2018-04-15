@@ -1,5 +1,0 @@
-tlserver.c:66:1:TLServerOpenStreamKM	112	static
-tlserver.c:198:1:TLServerCloseStreamKM	64	static
-tlserver.c:268:1:TLServerDiscoverStreamsKM	48	static
-tlserver.c:292:1:TLServerAcquireDataKM	64	static
-tlserver.c:367:1:TLServerReleaseDataKM	32	static

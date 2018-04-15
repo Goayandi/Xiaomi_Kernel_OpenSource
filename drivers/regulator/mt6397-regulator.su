@@ -1,6 +1,0 @@
-mt6397-regulator.c:420:1:mt6397_regulator_driver_init	16	static
-mt6397-regulator.c:158:12:mt6397_get_status	64	static
-mt6397-regulator.c:209:21:mt6397_regulator_get_mode	64	static
-mt6397-regulator.c:173:12:mt6397_regulator_set_mode	64	static
-mt6397-regulator.c:363:12:mt6397_regulator_probe	144	static
-mt6397-regulator.c:420:1:mt6397_regulator_driver_exit	16	static

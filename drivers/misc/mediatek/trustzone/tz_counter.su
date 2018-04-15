@@ -1,3 +1,0 @@
-tz_counter.c:27:10:TEECK_Icnt_Counter	112	static
-tz_counter.c:46:10:TEECK_Icnt_Rate	96	static
-tz_counter.c:64:5:update_counter_thread	128	static

@@ -1,3 +1,0 @@
-mt_pm_init.c:311:19:mt_power_management_init	0	static
-mt_pm_init.c:318:19:mt_pm_module_init	0	static
-mt_pm_init.c:326:19:mt_pm_late_init	0	static

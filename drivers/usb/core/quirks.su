@@ -1,3 +1,0 @@
-quirks.c:290:12:__usb_detect_quirks	80	static
-quirks.c:312:6:usb_detect_quirks	32	static
-quirks.c:338:6:usb_detect_interface_quirks	32	static

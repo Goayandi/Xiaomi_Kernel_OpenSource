@@ -1,4 +1,0 @@
-domain_governor.c:225:13:always_on_power_down_ok	0	static
-domain_governor.c:16:12:dev_update_qos_constraint	32	static
-domain_governor.c:45:13:default_stop_ok	80	static
-domain_governor.c:102:13:default_power_down_ok	80	static

@@ -1,7 +1,0 @@
-suspend_time.c:56:19:suspend_time_debug_init	16	static
-suspend_time.c:44:12:suspend_time_debug_open	16	static
-suspend_time.c:29:12:suspend_time_debug_show	64	static
-suspend_time.c:99:12:suspend_time_syscore_init	16	static
-suspend_time.c:73:12:suspend_time_syscore_suspend	16	static
-suspend_time.c:80:13:suspend_time_syscore_resume	64	static
-suspend_time.c:106:13:suspend_time_syscore_exit	16	static

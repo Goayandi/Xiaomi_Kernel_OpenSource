@@ -1,5 +1,0 @@
-gpio_axis.c:61:13:gpio_event_update_axis	80	static
-gpio_axis.c:105:20:gpio_axis_irq_handler	16	static
-gpio_axis.c:38:10:gpio_axis_4bit_gray_map	0	static
-gpio_axis.c:55:10:gpio_axis_5bit_singletrack_map	0	static
-gpio_axis.c:112:5:gpio_event_axis_func	96	static

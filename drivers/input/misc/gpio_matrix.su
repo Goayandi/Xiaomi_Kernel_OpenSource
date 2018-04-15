@@ -1,5 +1,0 @@
-gpio_matrix.c:38:13:clear_phantom_key	32	static
-gpio_matrix.c:60:12:restore_keys_for_input	64	static
-gpio_matrix.c:222:20:gpio_keypad_irq_handler	64	static
-gpio_matrix.c:141:29:gpio_keypad_timer_func	144	static
-gpio_matrix.c:306:5:gpio_event_matrix_func	128	static

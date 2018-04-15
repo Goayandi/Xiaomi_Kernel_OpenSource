@@ -1,8 +1,0 @@
-sysconfig.c:103:6:UMAPhysHeapCpuPAddrToDevPAddr	0	static
-sysconfig.c:126:6:UMAPhysHeapDevPAddrToCpuPAddr	0	static
-sysconfig.c:146:5:MTKSysGetIRQ	0	static
-sysconfig.c:162:14:SysDevInit	80	static
-sysconfig.c:269:6:SysDevDeInit	32	static
-sysconfig.c:277:14:SysInstallDeviceLISR	16	static
-sysconfig.c:296:14:SysUninstallDeviceLISR	16	static
-sysconfig.c:302:14:SysDebugInfo	0	static

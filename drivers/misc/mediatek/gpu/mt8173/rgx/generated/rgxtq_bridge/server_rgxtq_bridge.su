@@ -1,6 +1,0 @@
-server_rgxtq_bridge.c:1499:1:PVRSRVBridgeRGXSetTransferContextPriority	64	static
-server_rgxtq_bridge.c:193:1:PVRSRVBridgeRGXDestroyTransferContext	32	static
-server_rgxtq_bridge.c:232:1:PVRSRVBridgeRGXSubmitTransfer	416	static
-server_rgxtq_bridge.c:73:1:PVRSRVBridgeRGXCreateTransferContext	80	static
-server_rgxtq_bridge.c:1574:14:InitRGXTQBridge	32	static
-server_rgxtq_bridge.c:1596:14:DeinitRGXTQBridge	0	static

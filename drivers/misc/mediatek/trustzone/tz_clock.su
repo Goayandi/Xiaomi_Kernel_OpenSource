@@ -1,2 +1,0 @@
-tz_clock.c:24:11:KREE_ServEnableClock	32	static
-tz_clock.c:39:11:KREE_ServDisableClock	32	static

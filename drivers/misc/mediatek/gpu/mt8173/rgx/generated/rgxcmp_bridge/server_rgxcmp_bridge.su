@@ -1,9 +1,0 @@
-server_rgxcmp_bridge.c:871:1:PVRSRVBridgeRGXNotifyComputeWriteOffsetUpdate	64	static
-server_rgxcmp_bridge.c:194:1:PVRSRVBridgeRGXDestroyComputeContext	32	static
-server_rgxcmp_bridge.c:808:1:PVRSRVBridgeRGXGetLastComputeContextResetReason	64	static
-server_rgxcmp_bridge.c:746:1:PVRSRVBridgeRGXSetComputeContextPriority	64	static
-server_rgxcmp_bridge.c:685:1:PVRSRVBridgeRGXFlushComputeData	64	static
-server_rgxcmp_bridge.c:233:1:PVRSRVBridgeRGXKickCDM	256	static
-server_rgxcmp_bridge.c:73:1:PVRSRVBridgeRGXCreateComputeContext	96	static
-server_rgxcmp_bridge.c:945:14:InitRGXCMPBridge	32	static
-server_rgxcmp_bridge.c:976:14:DeinitRGXCMPBridge	0	static

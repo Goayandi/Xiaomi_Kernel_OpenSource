@@ -1,3 +1,0 @@
-hid-holtek-mouse.c:91:1:holtek_mouse_driver_init	16	static
-hid-holtek-mouse.c:91:1:holtek_mouse_driver_exit	16	static
-hid-holtek-mouse.c:35:14:holtek_mouse_report_fixup	32	static

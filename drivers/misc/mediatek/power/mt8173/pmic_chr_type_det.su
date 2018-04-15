@@ -1,3 +1,0 @@
-pmic_chr_type_det.c:20:6:Charger_Detect_Init	0	static
-pmic_chr_type_det.c:26:6:Charger_Detect_Release	0	static
-pmic_chr_type_det.c:181:5:hw_charger_type_detection	64	static

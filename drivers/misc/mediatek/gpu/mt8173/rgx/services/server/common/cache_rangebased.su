@@ -1,9 +1,0 @@
-cache_rangebased.c:676:21:CacheOpRangeBased	576	static
-cache_rangebased.c:1697:14:CacheOpQueue	64	static
-cache_rangebased.c:1785:14:CacheOpFence	64	static
-cache_rangebased.c:1850:14:CacheOpSetTimeline	32	static
-cache_rangebased.c:1897:14:CacheOpExec	80	static
-cache_rangebased.c:1945:14:CacheOpLog	0	static
-cache_rangebased.c:1984:14:CacheOpGetLineSize	0	static
-cache_rangebased.c:1991:14:CacheOpInit	32	static
-cache_rangebased.c:2095:14:CacheOpDeInit	0	static

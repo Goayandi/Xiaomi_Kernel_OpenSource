@@ -1,8 +1,0 @@
-clk-pll.c:59:12:mtk_pll_is_prepared	0	static
-clk-pll.c:200:22:mtk_pll_recalc_rate	0	static
-clk-pll.c:261:13:mtk_pll_unprepare	0	static
-clk-pll.c:228:12:mtk_pll_prepare	32	static
-clk-pll.c:152:13:mtk_pll_calc_values.isra.1.constprop	0	static
-clk-pll.c:187:12:mtk_pll_set_rate	48	static
-clk-pll.c:216:13:mtk_pll_round_rate	48	static
-clk-pll.c:333:13:mtk_clk_register_plls	144	static

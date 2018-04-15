@@ -1,8 +1,0 @@
-rgxmem.c:79:6:RGXMMUCacheInvalidate	0	static
-rgxmem.c:101:14:RGXPreKickCacheCommand	208	static
-rgxmem.c:220:6:RGXUnregisterMemoryContext	32	static
-rgxmem.c:250:14:RGXRegisterMemoryContext	80	static
-rgxmem.c:458:17:RGXGetFWMemDescFromMemoryContextHandle	0	static
-rgxmem.c:465:6:RGXCheckFaultAddress	112	static
-rgxmem.c:518:10:RGXPCAddrToProcessInfo	96	static
-rgxmem.c:618:10:RGXPCPIDToProcessInfo	32	static

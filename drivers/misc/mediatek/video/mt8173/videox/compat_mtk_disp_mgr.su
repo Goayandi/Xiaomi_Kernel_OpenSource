@@ -1,2 +1,0 @@
-compat_mtk_disp_mgr.c:222:5:_compat_ioctl_set_input_buffer	144	static
-compat_mtk_disp_mgr.c:250:5:_compat_ioctl_set_output_buffer	128	static

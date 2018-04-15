@@ -1,7 +1,0 @@
-readdir.c:134:1:cifs_fill_common_info	0	static
-readdir.c:258:1:initiate_cifs_search	112	static
-readdir.c:450:12:cifs_fill_dirent	32	static
-readdir.c:531:12:cifs_save_resume_key	64	static
-readdir.c:189:1:cifs_dir_info_to_fattr	48	static
-readdir.c:677:12:cifs_filldir.constprop	272	static
-readdir.c:763:5:cifs_readdir	144	static

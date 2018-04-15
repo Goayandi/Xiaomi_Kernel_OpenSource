@@ -1,4 +1,0 @@
-rgxstartstop.c:77:21:RGXWriteMetaRegThroughSP	48	static
-rgxstartstop.c:95:21:RGXReadMetaRegThroughSP	48	static
-rgxstartstop.c:648:14:RGXStart	64	static
-rgxstartstop.c:809:14:RGXStop	48	static

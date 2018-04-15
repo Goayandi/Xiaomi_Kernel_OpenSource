@@ -1,3 +1,0 @@
-gpio_input.c:52:29:gpio_event_input_timer_func	128	static
-gpio_input.c:163:20:gpio_event_input_irq_handler	96	static
-gpio_input.c:257:5:gpio_event_input_func	96	static

@@ -1,5 +1,0 @@
-htbuffer.c:141:1:_HTBLog	80	static
-htbuffer.c:78:1:HTBConfigure	48	static
-htbuffer.c:116:1:HTBControl	16	static
-htbuffer.c:191:1:HTBLog	112	static
-htbuffer.c:214:1:HTBLogSimple	160	static

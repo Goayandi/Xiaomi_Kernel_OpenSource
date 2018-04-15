@@ -1,3 +1,0 @@
-hid-lcpower.c:57:1:ts_driver_init	16	static
-hid-lcpower.c:23:12:ts_input_mapping	16	static
-hid-lcpower.c:57:1:ts_driver_exit	16	static

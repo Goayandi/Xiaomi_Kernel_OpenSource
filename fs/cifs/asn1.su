@@ -1,3 +1,0 @@
-asn1.c:223:1:asn1_header_decode	0	static
-asn1.c:418:1:asn1_oid_decode	64	static
-asn1.c:494:1:decode_negTokenInit	144	static

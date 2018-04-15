@@ -1,5 +1,0 @@
-smi_variant_config_8173.c:101:13:mt8173_vp_setting	32	static
-smi_variant_config_8173.c:131:13:mt8173_vr_setting	32	static
-smi_variant_config_8173.c:200:13:mt8173_hdmi_setting	32	static
-smi_variant_config_8173.c:230:13:mt8173_hdmi4k_setting	32	static
-smi_variant_config_8173.c:32:13:mt8173_init_setting	64	static

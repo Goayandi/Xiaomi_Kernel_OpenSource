@@ -1,5 +1,0 @@
-smbencrypt.c:69:1:smbhash	144	static
-smbencrypt.c:133:1:mdfour	80	static
-smbencrypt.c:183:1:SMBencrypt	112	static
-smbencrypt.c:208:1:E_md4hash	304	static
-smbencrypt.c:231:1:SMBNTencrypt	96	static

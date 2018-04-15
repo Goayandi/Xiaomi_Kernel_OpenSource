@@ -1,6 +1,0 @@
-mtk-infracfg.c:26:12:set_bits_wait	80	static
-mtk-infracfg.c:52:12:clr_bits_wait	80	static
-mtk-infracfg.c:87:5:mtk_infracfg_set_bus_protection	16	static
-mtk-infracfg.c:101:5:mtk_infracfg_clear_bus_protection	16	static
-mtk-infracfg.c:116:5:mtk_infracfg_set_bus_protection1	16	static
-mtk-infracfg.c:130:5:mtk_infracfg_clear_bus_protection1	16	static

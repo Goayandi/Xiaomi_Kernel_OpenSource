@@ -1,5 +1,0 @@
-mtk-scpsys.c:423:1:scpsys_drv_init	16	static
-mtk-scpsys.c:172:12:scpsys_power_on	80	static
-mtk-scpsys.c:249:12:scpsys_power_off	64	static
-mtk-scpsys.c:327:12:scpsys_probe	128	static
-mtk-scpsys.c:423:1:scpsys_drv_exit	16	static

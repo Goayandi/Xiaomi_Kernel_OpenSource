@@ -1,3 +1,0 @@
-drm_memory.c:123:6:drm_legacy_ioremap	32	static
-drm_memory.c:132:6:drm_legacy_ioremap_wc	32	static
-drm_memory.c:141:6:drm_legacy_ioremapfree	16	static

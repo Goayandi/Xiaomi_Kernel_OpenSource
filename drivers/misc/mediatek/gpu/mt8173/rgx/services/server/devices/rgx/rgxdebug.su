@@ -1,9 +1,0 @@
-rgxdebug.c:3116:13:_RGXDumpMetaSPExtraDebugInfo	176	static
-rgxdebug.c:1957:13:_RGXDumpRGXBIFBank.isra.0	304	static
-rgxdebug.c:2620:13:_RGXDumpFWHWRInfo	256	static
-rgxdebug.c:2960:13:_RGXDumpRGXDebugSummary	80	static
-rgxdebug.c:187:12:RGXReadWithSP	48	static
-rgxdebug.c:3297:6:RGXDumpFirmwareTrace	880	static
-rgxdebug.c:3453:6:RGXDebugRequestProcess	256	static
-rgxdebug.c:3182:6:RGXDumpDebugInfo	48	static
-rgxdebug.c:3816:6:RGXPanic	32	static

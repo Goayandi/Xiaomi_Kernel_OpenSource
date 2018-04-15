@@ -1,4 +1,0 @@
-pageattr.c:70:5:set_memory_ro	32	static
-pageattr.c:78:5:set_memory_rw	32	static
-pageattr.c:86:5:set_memory_nx	32	static
-pageattr.c:94:5:set_memory_x	32	static

@@ -1,7 +1,0 @@
-hanwang.c:464:1:hanwang_driver_init	16	static
-hanwang.c:436:13:hanwang_disconnect	32	static
-hanwang.c:300:12:hanwang_open	16	static
-hanwang.c:270:13:hanwang_irq	80	static
-hanwang.c:311:13:hanwang_close	16	static
-hanwang.c:334:12:hanwang_probe	80	static
-hanwang.c:464:1:hanwang_driver_exit	16	static
