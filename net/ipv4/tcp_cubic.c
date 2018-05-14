@@ -469,7 +469,8 @@ static struct tcp_congestion_ops cubictcp __read_mostly = {
 	.cong_avoid	= bictcp_cong_avoid,
 	.set_state	= bictcp_state,
 	.undo_cwnd	= bictcp_undo_cwnd,
-	.pkts_acked     = bictcp_acked,
+    .cwnd_event = bictcp_cwnd_event,
+	.pkts_acked = bictcp_acked,
 	.owner		= THIS_MODULE,
 	.name		= "cubic",
 };
