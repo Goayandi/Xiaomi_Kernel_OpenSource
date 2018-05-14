@@ -96,6 +96,12 @@ config MTK_CONSUMER_PARTIAL_UPDATE_SUPPORT
 	help
 	  This enable support display partial support.
 
+config MTK_KCAL_CTRL
+	bool "MTK_KCAL_CTRL"
+	default y
+	help
+		Enable RGB color calibration.
+
 config MTK_PQ_COLOR_MODE
 	string "Config PQ_COLOR_MODE (MDP & DISP COLOR on/off)"
 	default "DISP"
