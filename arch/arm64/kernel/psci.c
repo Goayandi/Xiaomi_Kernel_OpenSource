@@ -827,7 +827,7 @@ static int cpu_psci_cpu_kill(unsigned int cpu)
 		if (err == PSCI_0_2_AFFINITY_LEVEL_OFF) {
 #ifndef CONFIG_ARCH_MT6797
 			aee_rr_rec_hotplug_footprint(cpu, 87);
-			pr_info("CPU%d killed.\n", cpu);
+			pr_debug("CPU%d killed.\n", cpu);
 #endif
 #ifdef CONFIG_ARCH_MT6797
 
