@@ -5,7 +5,6 @@
 @Title          Kernel driver for Android's sync mechanism
 @Codingstyle    LinuxKernel
 @Copyright      Copyright (c) Imagination Technologies Ltd. All Rights Reserved
- * Copyright (C) 2018 XiaoMi, Inc.
 @License        Dual MIT/GPLv2
 
 The contents of this file are subject to the MIT license as set out below.
