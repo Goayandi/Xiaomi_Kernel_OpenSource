@@ -26,6 +26,7 @@
 #include <linux/slab.h>
 #ifdef CONFIG_ARM64
 #include <asm/cpu_ops.h>	/* cpu_ops[] */
+#include <linux/cpu.h>
 #endif
 /* local includes */
 #include "mt_hotplug_strategy_internal.h"
@@ -110,6 +111,37 @@ unsigned int num_online_big_cpus(void)
 	return cpumask_weight(&dst_cpumask);
 }
 
+int hps_cpu_up(unsigned int cpu)
+{
+	struct device *cpu_dev = get_cpu_device(cpu);
+	int ret;
+
+	lock_device_hotplug();
+
+	ret = device_online(cpu_dev);
+	if (ret)
+		dev_err(cpu_dev, "HPS: unable to up CPU\n");
+
+	unlock_device_hotplug();
+
+	return ret;
+}
+
+int hps_cpu_down(unsigned int cpu)
+{
+	struct device *cpu_dev = get_cpu_device(cpu);
+	int ret;
+
+	lock_device_hotplug();
+
+	ret = device_offline(cpu_dev);
+	if (ret)
+		dev_err(cpu_dev, "HPS: unable to down CPU\n");
+
+	unlock_device_hotplug();
+
+	return ret;
+}
 /* int hps_cpu_get_arch_type(void) */
 /* { */
 /* if(!cluster_numbers) */
