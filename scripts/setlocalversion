@@ -73,9 +73,10 @@ scm_version()
 		fi
 
 		# Check for uncommitted changes
-		if git diff-index --name-only HEAD | grep -qv "^scripts/package"; then
-			printf '%s' -dirty
-		fi
+# WORK: removed to ignore '-dirty' since we patch Kernel on purpose
+#		if git diff-index --name-only HEAD | grep -qv "^scripts/package"; then
+#			printf '%s' -dirty
+#		fi
 
 		# All done with git
 		return
@@ -97,9 +98,10 @@ scm_version()
 
 		# Are there uncommitted changes?
 		# These are represented by + after the changeset id.
-		case "$hgid" in
-			*+|*+\ *) printf '%s' -dirty ;;
-		esac
+# WORK: removed to ignore '-dirty' since we patch Kernel on purpose
+#		case "$hgid" in
+#			*+|*+\ *) printf '%s' -dirty ;;
+#		esac
 
 		# All done with mercurial
 		return
