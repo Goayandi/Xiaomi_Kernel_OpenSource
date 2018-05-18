@@ -112,7 +112,6 @@ static struct mtk_uart_setting mtk_uart_default_settings[] = {
 	{
 	 .tx_mode = UART_NON_DMA, .rx_mode = UART_NON_DMA, .dma_mode = UART_DMA_MODE_0,
 	 .tx_trig = UART_FCR_TXFIFO_1B_TRI, .rx_trig = UART_FCR_RXFIFO_12B_TRI,
-
 	 /* .uart_base = AP_UART2_BASE, .irq_num = UART2_IRQ_BIT_ID, .irq_sen = MT_LEVEL_SENSITIVE, */
 #if defined(CONFIG_MTK_CLKMGR) && !defined(CONFIG_MTK_FPGA)
 	 .set_bit = PDN_FOR_UART3, .clr_bit = PDN_FOR_UART3, .pll_id = PDN_FOR_UART3,
@@ -845,7 +844,7 @@ void mtk_uart_dma_vfifo_tx_tasklet(unsigned long arg)
 	unsigned long flags;
 
 	spin_lock_irqsave(&vfifo->iolock, flags);
-	if (atomic_inc_and_test(&vfifo->entry) > 1) {
+	if (atomic_inc_return(&vfifo->entry) > 1) {
 		MSG(ERR, "tx entry!!\n");
 		tasklet_schedule(&vfifo->dma->tasklet);
 	} else {
@@ -1122,7 +1121,7 @@ void mtk_uart_dma_vfifo_rx_tasklet(unsigned long arg)
 
 	MSG(DMA, "%d, %x, %x\n", uart->read_allow(uart), UART_READ32(VFF_VALID_SIZE(vfifo->base)), vfifo->trig);
 	spin_lock_irqsave(&vfifo->iolock, flags);
-	if (atomic_inc_and_test(&vfifo->entry) > 1) {
+	if (atomic_inc_return(&vfifo->entry) > 1) {
 		MSG(ERR, "rx entry!!\n");
 		tasklet_schedule(&vfifo->dma->tasklet);
 	} else {

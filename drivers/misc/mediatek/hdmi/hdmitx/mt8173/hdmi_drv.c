@@ -1466,11 +1466,7 @@ void vWriteReg(unsigned int u2Reg, unsigned int u4Data)
 void hdmi_write(unsigned int u2Reg, unsigned int u4Data)
 {
 	switch (u2Reg & 0x1ffff000) {
-#if (defined(CONFIG_MTK_IN_HOUSE_TEE_SUPPORT) && defined(CONFIG_MTK_HDMI_HDCP_SUPPORT))
-		vCaHDMIWriteReg(u2Reg - 0x14025000, u4Data);
-#else
-		internal_hdmi_write(hdmi_reg[HDMI_SHELL] + u2Reg - 0x14025000, u4Data);
-#endif
+
 	break;
 
 	case 0x11012000:
