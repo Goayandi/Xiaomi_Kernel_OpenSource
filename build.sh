@@ -6,4 +6,4 @@ make O=out cappu_defconfig
 export KBUILD_BUILD_USER=goayandi
 export KBUILD_BUILD_HOST=universal
 export CROSS_COMPILE=`pwd`/toolchain/bin/aarch64-linux-gnu-
-make O=out Image.gz-dtb -j6
+make O=out Image.gz-dtb -j6 LOCALVERSION="-YAEL-kernel"
