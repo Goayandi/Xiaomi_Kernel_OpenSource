@@ -6,7 +6,6 @@
  * lifting
  *
  * Copyright IBM Corp. 2007-2010 Mel Gorman <mel@csn.ul.ie>
- * Copyright (C) 2018 XiaoMi, Inc.
  */
 #include <linux/swap.h>
 #include <linux/migrate.h>
@@ -112,20 +111,6 @@ static struct page *pageblock_pfn_to_page(unsigned long start_pfn,
 }
 
 #ifdef CONFIG_COMPACTION
-void __ClearPageMovable(struct page *page)
-{
-	VM_BUG_ON_PAGE(!PageLocked(page), page);
-	VM_BUG_ON_PAGE(!PageMovable(page), page);
-	/*
-	 * Clear registered address_space val with keeping PAGE_MAPPING_MOVABLE
-	 * flag so that VM can catch up released page by driver after isolation.
-	 * With it, VM migration doesn't try to put it back.
-	 */
-	page->mapping = (void *)((unsigned long)page->mapping &
-				PAGE_MAPPING_MOVABLE);
-}
-EXPORT_SYMBOL(__ClearPageMovable);
-
 /* Returns true if the pageblock should be scanned for pages to isolate. */
 static inline bool isolation_suitable(struct compact_control *cc,
 					struct page *page)
@@ -699,22 +684,6 @@ isolate_migratepages_block(struct compact_control *cc, unsigned long low_pfn,
 					/* Successfully isolated */
 					goto isolate_success;
 				}
-			}
-
-			/*
-			 * __PageMovable can return false positive so we need
-			 * to verify it under page_lock.
-			 */
-			if (unlikely(__PageMovable(page)) &&
-					!PageIsolated(page)) {
-				if (locked) {
-					spin_unlock_irqrestore(&zone->lru_lock,
-									flags);
-					locked = false;
-				}
-
-				if (isolate_movable_page(page, isolate_mode))
-					goto isolate_success;
 			}
 			continue;
 		}

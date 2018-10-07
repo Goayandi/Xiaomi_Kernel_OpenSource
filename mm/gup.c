@@ -270,15 +270,11 @@ unmap:
  * If it is, *@nonblocking will be set to 0 and -EBUSY returned.
  */
 static int faultin_page(struct task_struct *tsk, struct vm_area_struct *vma,
-		unsigned long address, unsigned int gup_flags,
-		unsigned int *flags, int *nonblocking)
+		unsigned long address, unsigned int *flags, int *nonblocking)
 {
 	struct mm_struct *mm = vma->vm_mm;
 	unsigned int fault_flags = 0;
 	int ret;
-
-	if (gup_flags & FOLL_DURABLE)
-		fault_flags = FAULT_FLAG_NO_CMA;
 
 	if (*flags & FOLL_WRITE)
 		fault_flags |= FAULT_FLAG_WRITE;
@@ -378,45 +374,6 @@ static int check_vma_flags(struct vm_area_struct *vma, unsigned long gup_flags)
 			return -EFAULT;
 	}
 	return 0;
-}
-
-/**
- * replace_cma_page() - migrate page out of CMA page blocks
- * @page:	source page to be migrated
- *
- * Returns either the old page (if migration was not possible) or the pointer
- * to the newly allocated page (with additional reference taken).
- *
- * get_user_pages() might take a reference to a page for a long period of time,
- * what prevent such page from migration. This is fatal to the preffered usage
- * pattern of CMA pageblocks. This function replaces the given user page with
- * a new one allocated from NON-MOVABLE pageblock, so locking CMA page can be
- * avoided.
- */
-static inline struct page *migrate_replace_cma_page(struct page *page)
-{
-	struct page *newpage = alloc_page(GFP_HIGHUSER);
-
-	if (!newpage)
-		goto out;
-
-	/*
-	 * Take additional reference to the new page to ensure it won't get
-	 * freed after migration procedure end.
-	 */
-	get_page_foll(newpage);
-
-	if (migrate_replace_page(page, newpage) == 0)
-		return newpage;
-
-	put_page(newpage);
-	__free_page(newpage);
-out:
-	/*
-	 * Migration errors in case of get_user_pages() might not
-	 * be fatal to CMA itself, so better don't fail here.
-	 */
-	return page;
 }
 
 /**
@@ -536,8 +493,8 @@ retry:
 		page = follow_page_mask(vma, start, foll_flags, &page_mask);
 		if (!page) {
 			int ret;
-			ret = faultin_page(tsk, vma, start, gup_flags,
-					&foll_flags, nonblocking);
+			ret = faultin_page(tsk, vma, start, &foll_flags,
+					nonblocking);
 			switch (ret) {
 			case 0:
 				goto retry;
@@ -554,10 +511,6 @@ retry:
 		}
 		if (IS_ERR(page))
 			return i ? i : PTR_ERR(page);
-
-		if ((gup_flags & FOLL_DURABLE) && is_cma_page(page))
-			page = migrate_replace_cma_page(page);
-
 		if (pages) {
 			pages[i] = page;
 			flush_anon_page(vma, page, start);
