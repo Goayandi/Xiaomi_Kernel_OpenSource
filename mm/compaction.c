@@ -112,31 +112,6 @@ static struct page *pageblock_pfn_to_page(unsigned long start_pfn,
 }
 
 #ifdef CONFIG_COMPACTION
-
-int PageMovable(struct page *page)
-{
-	struct address_space *mapping;
-
-	VM_BUG_ON_PAGE(!PageLocked(page), page);
-	if (!__PageMovable(page))
-		return 0;
-
-	mapping = page_mapping(page);
-	if (mapping && mapping->a_ops && mapping->a_ops->isolate_page)
-		return 1;
-
-	return 0;
-}
-EXPORT_SYMBOL(PageMovable);
-
-void __SetPageMovable(struct page *page, struct address_space *mapping)
-{
-	VM_BUG_ON_PAGE(!PageLocked(page), page);
-	VM_BUG_ON_PAGE((unsigned long)mapping & PAGE_MAPPING_MOVABLE, page);
-	page->mapping = (void *)((unsigned long)mapping | PAGE_MAPPING_MOVABLE);
-}
-EXPORT_SYMBOL(__SetPageMovable);
-
 void __ClearPageMovable(struct page *page)
 {
 	VM_BUG_ON_PAGE(!PageLocked(page), page);
